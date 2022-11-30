@@ -1,0 +1,103 @@
+
+ {
+    "star": [
+        {
+            "name": "Polaris",
+            "family": "Ursa Minor",
+            "status": "Guiding Star",
+            "type": "triangle",
+            "color": "#fcba03",
+            "size": "5px",
+            "position": {
+                "x": "10px",
+                "y": "20px"
+            }
+        },
+        {
+            "name": "Castor",
+            "family": "Gemini",
+            "status": "twin of Pollux",
+            "type": "Circle",
+            "color": "#0388fc",
+            "size": "12px",
+            "position": {
+                "x": "30px",
+                "y": "45px"
+            }
+        },
+        {
+            "name": "Pollux",
+            "family": "Gemini",
+            "status": "Orange Red Star",
+            "type": "Square",
+            "color": "#7703fc",
+            "size": "15px",
+            "position": {
+                "x": "32px",
+                "y": "32px"
+            }
+        },
+        {
+            "name": "Orion",
+            "family": "Nebula",
+            "status": "clouds of Stellar dust",
+            "type": "Star",
+            "color": "#294727",
+            "size": "11px",
+            "position": {
+                "x": "72px",
+                "y": "60px"
+            }
+        },
+        {
+            "name": "Sirius",
+            "family": "Canis Major",
+            "status": "Visible with Naked eye",
+            "type": "Rectangle",
+            "color": "#83710d",
+            "size": "15px",
+            "position": {
+                "x": "10px",
+                "y": "20px"
+            }
+        },
+        {
+            "name": "Sun",
+            "family": "solar",
+            "status": "center of system",
+            "type": "circle",
+            "color": "#d4cc39",
+            "size": "15px",
+            "position": {
+                "x": "115px",
+                "y": "1150px"
+            }
+        },
+        {
+            "name": "Antares",
+            "family": "Red Giant",
+            "status": "Alpha Scorpii",
+            "type": "Triangle",
+            "color": "#289d2j",
+            "size": "13px",
+            "position": {
+                "x": "60px",
+                "y": "90px"
+            }
+        },
+        {
+            "name": "Altair",
+            "type": "Types",
+            "color": "color",
+            "size": "Size",
+            "position": {
+                "x": "10px",
+                "y": "20px"
+            }
+        }
+
+    ]
+
+
+}
+   
