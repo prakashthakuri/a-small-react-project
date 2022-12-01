@@ -1,32 +1,24 @@
-import React, { useState, useRef, useEffect} from 'react'
+import React from 'react'
+import Canvas from './common/Canvas.Component'
 
 export default function StarCard({storedData}) {
 
     console.log(storedData, "stored star card")
 
+    const starType = storedData.type
+    const starColor = storedData.color
+
     const style = {
-        backgroundColor: storedData?.color,
+        backgroundColor: starColor,
         height: '800px',
         width: '800px',
         border: '3px solid black',
         margin: '10px auto'
     }
-    // const c = document.getElementById("canvas")
-    // const ctx = c.getContext("2d")
-    // ctx.beginPath()
-    // ctx.arc(100, 75, 50, 0, 2 * Math.PI);
-    // ctx.stroke();
-
-    const canvasRef = useRef(null)
-  
-  useEffect(() => {
-    const canvas = canvasRef.current
-    const context = canvas.getContext('2d')
-    //Our first draw
-    context.fillStyle = '#000000'
-    context.fillRect(0, 0, context.canvas.width, context.canvas.height)
-  }, [])
-
+   const handleClick = () => {
+    console.log("click")
+   }
+   
    
    
 
@@ -43,12 +35,9 @@ export default function StarCard({storedData}) {
 
     </div>
 
-    <button
-    type='button'
-    >
+<Canvas draw={starType} color = {starColor} height={180} width={180} handleCanvasClick={handleClick} />
 
-    </button>
-    <canvas ref={canvasRef} />
+
 
 
     </>

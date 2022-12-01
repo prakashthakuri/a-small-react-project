@@ -17,7 +17,7 @@
             "name": "Castor",
             "family": "Gemini",
             "status": "twin of Pollux",
-            "type": "Circle",
+            "type": "circle",
             "color": "#0388fc",
             "size": "12px",
             "position": {
@@ -29,7 +29,7 @@
             "name": "Pollux",
             "family": "Gemini",
             "status": "Orange Red Star",
-            "type": "Square",
+            "type": "square",
             "color": "#7703fc",
             "size": "15px",
             "position": {
@@ -41,7 +41,7 @@
             "name": "Orion",
             "family": "Nebula",
             "status": "clouds of Stellar dust",
-            "type": "Star",
+            "type": "heart",
             "color": "#294727",
             "size": "11px",
             "position": {
@@ -53,7 +53,7 @@
             "name": "Sirius",
             "family": "Canis Major",
             "status": "Visible with Naked eye",
-            "type": "Rectangle",
+            "type": "rectangle",
             "color": "#83710d",
             "size": "15px",
             "position": {
@@ -65,7 +65,7 @@
             "name": "Sun",
             "family": "solar",
             "status": "center of system",
-            "type": "circle",
+            "type": "arc",
             "color": "#d4cc39",
             "size": "15px",
             "position": {
@@ -77,7 +77,7 @@
             "name": "Antares",
             "family": "Red Giant",
             "status": "Alpha Scorpii",
-            "type": "Triangle",
+            "type": "heart",
             "color": "#289d2j",
             "size": "13px",
             "position": {
