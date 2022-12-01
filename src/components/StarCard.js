@@ -1,30 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Canvas from './common/Canvas.Component'
 
 export default function StarCard({storedData}) {
 
-    console.log(storedData, "stored star card")
-
     const starType = storedData.type
     const starColor = storedData.color
-
     const style = {
         backgroundColor: starColor,
         height: '800px',
         width: '800px',
         border: '3px solid black',
-        margin: '10px auto'
+        margin: '10px auto',
     }
+
+    const [cssStyle , setCssStyle] = useState(style)
+    const [canvasClicked, setCanvasClicked] = useState(false)
+
    const handleClick = () => {
-    console.log("click")
+    setCanvasClicked(!canvasClicked)
+        // eslint-disable-next-line no-unused-expressions
+    canvasClicked === true ? 
+        setCssStyle({...cssStyle , opacity: 0.5})
+        :
+        setCssStyle({...cssStyle, opacity: 1})
+
+
    }
+
+
    
+
    
    
 
   return (
     <>
-   <div className= '' style= {style}>
+   <div className= '' style= {cssStyle}>
 
         
         <h1 style={{fontSize: '10pt'}}>  Star Name: {storedData?.name}</h1>

@@ -24,3 +24,7 @@ code {
   margin: 10px auto;
   border-radius: 10px;
 }
+
+.danger {
+  color: red;
+}

@@ -9,11 +9,11 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
         context.fillStyle = color
         switch (draw) {
             case 'square':
-                context.fillRect(20, 20, 20, 20)
+                context.fillRect(25, 25, 100, 100)
                 break;
 
             case 'rectangle':
-                context.fillRect(25, 25, 100, 100)
+                context.fillRect(25, 25, 125, 100)
                 break;
 
             case 'triangle':
@@ -26,7 +26,7 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
             case 'arc':
 
                 context.beginPath();
-                context.arc(288, 75, 70, 0, Math.PI, false);
+                context.arc(0, 5, 25, 35, 2 * Math.PI);
                 context.fill();
 
                 break

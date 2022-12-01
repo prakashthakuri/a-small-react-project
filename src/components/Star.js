@@ -36,10 +36,12 @@ export default function Star() {
                 
             }
         }
-        console.log(storedStarObj," stored", typeof(storedStarObj))
 
-            const starNames = storedStarObj.map((name) => {
-                return <StarCard storedData={name} />
+
+            const starNames = storedStarObj.map((name, key) => {
+                if(inputValue < NumberOfStars)
+                return <StarCard key={key}storedData={name} />
+                else return null
             })
 
 
@@ -60,14 +62,14 @@ export default function Star() {
         label = "Submit"
         handleClick={onButtonClick}
         />
-
-
-    <h3>
-    {errorMessage}
-    </h3>    
-
-    {starNames}
        
+            <h3 className='danger'>
+    {errorMessage}
+    </h3>   
+    
+    
+        {starNames}
+ 
 
 
 
