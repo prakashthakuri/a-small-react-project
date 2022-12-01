@@ -2,17 +2,16 @@ import React, { useState } from 'react'
 import mockData from '../mockData.json'
 import Button from './common/Button.Component'
 import Input from './common/Input.Component'
+import StarCard from './StarCard'
 
 export default function Star() {
 
     const PopularStars = mockData
     const NumberOfStars = PopularStars.star.length
-
-    console.log(PopularStars.star.length, "length")
       
         const [inputValue, setInputValue ] = useState('')
         const [errorMessage, setErrorMessage] = useState('')
-        const [storedStarObj, setStoredStarObj] = useState({})
+        const [storedStarObj, setStoredStarObj] = useState([])
 
         const randomMultipleValue = (arr, num) => {
             const shuffle= [...arr].sort(() => 0.5 - Math.random())
@@ -21,14 +20,9 @@ export default function Star() {
 
         }
 
-       
-
         const inputOnChange = (e) => {
             const value = e.target.value.replace(/\D/g, '')
             setInputValue(Number(value))
-
-            console.log(inputValue < NumberOfStars)
-
         }
         
          const onButtonClick = () => {
@@ -36,15 +30,18 @@ export default function Star() {
             if (inputValue > NumberOfStars || inputValue === 0) setErrorMessage("Error! Select the available number of stars")
             else setErrorMessage(null)
 
-
-            const newStoredData = PopularStars.star[Math.floor(Math.random(NumberOfStars)* inputValue)]
-            console.log(newStoredData)
-
-            console.log(randomMultipleValue(PopularStars.star, inputValue), "this is what i need")
-
-
-            
+            if(inputValue){
+                setStoredStarObj(randomMultipleValue(PopularStars.star, inputValue))
+                // return <StarCard storedData={storedStarObj} />
+                
+            }
         }
+        console.log(storedStarObj," stored", typeof(storedStarObj))
+
+            const starNames = storedStarObj.map((name) => {
+                return <StarCard storedData={name} />
+            })
+
 
 
 
@@ -67,7 +64,13 @@ export default function Star() {
 
     <h3>
     {errorMessage}
-    </h3>      
+    </h3>    
+
+    {starNames}
+       
+
+
+
     </div>
 
   )

@@ -84,16 +84,6 @@
                 "x": "60px",
                 "y": "90px"
             }
-        },
-        {
-            "name": "Altair",
-            "type": "Types",
-            "color": "color",
-            "size": "Size",
-            "position": {
-                "x": "10px",
-                "y": "20px"
-            }
         }
 
     ]
