@@ -40,7 +40,7 @@ export default function Star() {
         }
         const starNames = storedStarObj.map((name, key) => {
             if(inputValue < NumberOfStars)
-            return <StarCard key={key} storedData={name} className='star-card' />
+            return <StarCard key={key} storedData={name}  />
             else return null
         })
 
@@ -69,9 +69,12 @@ export default function Star() {
             <h3 className='danger'>
     {errorMessage}
     </h3>   
+
+    <div className='star-card'>
+    {starNames}
+    </div>
+
     
-    
-        {starNames}
  
 
 
