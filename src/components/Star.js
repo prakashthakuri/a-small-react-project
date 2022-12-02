@@ -34,15 +34,18 @@ export default function Star() {
                 setStoredStarObj(randomMultipleValue(PopularStars, inputValue))
                 
             }
-        }
-
-
-            const starNames = storedStarObj.map((name, key) => {
-                if(inputValue < NumberOfStars)
-                return <StarCard key={key} storedData={name} className='star-card' />
-                else return null
-            })
             console.log(storedStarObj)
+            
+
+        }
+        const starNames = storedStarObj.map((name, key) => {
+            if(inputValue < NumberOfStars)
+            return <StarCard key={key} storedData={name} className='star-card' />
+            else return null
+        })
+
+
+            
 
 
 

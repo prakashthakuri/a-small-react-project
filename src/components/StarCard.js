@@ -34,8 +34,9 @@ export default function StarCard({storedData}) {
    <div className= 'star-flex' >
     <div className='star-flex-container' style={cssStyle} >
         <Canvas  draw={starType} color = {starColor} handleCanvasClick={handleClick} />
-        <h1 style={{fontSize: '10pt'}}> Name: {storedData?.name}</h1>
     </div>
+    <h1 style={{fontSize: '10pt'}}> Name: {storedData?.name}</h1>
+
 
 
 

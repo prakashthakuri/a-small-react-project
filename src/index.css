@@ -32,12 +32,10 @@ code {
 .star-flex {
   display: flex;
   
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .star-flex-container {
-  /* flex: auto;
-  flex-flow: row wrap; */
-  border: 1px solid black;
+ 
 
 }

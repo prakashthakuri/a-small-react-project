@@ -65,7 +65,9 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
 
     useEffect(() => {
         const context = canvas.current.getContext('2d')
+
         createCanvas(context)
+     
 
     }, [])
 
