@@ -9,14 +9,14 @@ export default function StarCard({storedData}) {
   
 
     const [cssStyle , setCssStyle] = useState({})
-    const [canvasClicked, setCanvasClicked] = useState(false)
+    const [canvasClicked, setCanvasClicked] = useState(true)
 
    const handleClick = () => {
-    setCanvasClicked(!canvasClicked)
     canvasClicked === true ? 
         setCssStyle({...cssStyle , opacity: 0.5})
         :
         setCssStyle({...cssStyle, opacity: 1})
+    setCanvasClicked(!canvasClicked)
 
 
    }
@@ -24,9 +24,14 @@ export default function StarCard({storedData}) {
 
   return (
     
-    <div className='star-flex-container' style={cssStyle} >
-        <Canvas  draw={starType} color = {starColor} handleCanvasClick={handleClick} height={100} width={100} />
+    <div className='star-flex-container'  >
+        <div style={cssStyle}>
+        <Canvas  draw={starType} color = {starColor} height={100} width={100} />
         <h1 style={{fontSize: '10pt'}}> Name: {storedData?.name}</h1>
+
+        </div>
+        
+        <button onClick={handleClick}>Transparency </button>
 
     </div>
  
