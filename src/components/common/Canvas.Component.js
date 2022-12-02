@@ -18,9 +18,10 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
 
             case 'triangle':
                 context.beginPath();
-                context.moveTo(75, 50);
-                context.lineTo(100, 75);
-                context.lineTo(100, 25);
+                context.moveTo(0, 50)
+                context.lineTo(50, 0)
+                context.lineTo(100, 50)
+                context.lineTo(0, 50)
                 context.fill();
                 break;
             case 'arc':
@@ -30,21 +31,9 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
                 context.fill();
 
                 break
-            case 'heart':
-
-                context.beginPath();
-                context.moveTo(75, 40);
-                context.bezierCurveTo(75, 37, 70, 25, 50, 25);
-                context.bezierCurveTo(20, 25, 20, 62.5, 20, 62.5);
-                context.bezierCurveTo(20, 80, 40, 102, 75, 120);
-                context.bezierCurveTo(110, 102, 130, 80, 130, 62.5);
-                context.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
-                context.bezierCurveTo(85, 25, 75, 37, 75, 40);
-                context.fill();
-                break
-
+   
             case 'circle':
-                context.arc(100, 35, 25, 0, 2 * Math.PI);
+                context.arc(50, 35, 25, 0, 4 * Math.PI);
                 context.fill()
                 break
 
@@ -64,7 +53,9 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
 
     useEffect(() => {
         const context = canvas.current.getContext('2d')
+
         createCanvas(context)
+     
 
     }, [])
 

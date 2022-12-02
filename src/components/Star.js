@@ -7,7 +7,7 @@ import StarCard from './StarCard'
 export default function Star() {
 
     const PopularStars = mockData
-    const NumberOfStars = PopularStars.star.length
+    const NumberOfStars = PopularStars.length
       
         const [inputValue, setInputValue ] = useState('')
         const [errorMessage, setErrorMessage] = useState('')
@@ -31,18 +31,21 @@ export default function Star() {
             else setErrorMessage(null)
 
             if(inputValue){
-                setStoredStarObj(randomMultipleValue(PopularStars.star, inputValue))
-                // return <StarCard storedData={storedStarObj} />
+                setStoredStarObj(randomMultipleValue(PopularStars, inputValue))
                 
             }
+            console.log(storedStarObj)
+            
+
         }
+        const starNames = storedStarObj.map((name, key) => {
+            if(inputValue < NumberOfStars)
+            return <StarCard key={key} storedData={name}  />
+            else return null
+        })
 
 
-            const starNames = storedStarObj.map((name, key) => {
-                if(inputValue < NumberOfStars)
-                return <StarCard key={key}storedData={name} />
-                else return null
-            })
+            
 
 
 
@@ -66,9 +69,12 @@ export default function Star() {
             <h3 className='danger'>
     {errorMessage}
     </h3>   
+
+    <div className='star-card'>
+    {starNames}
+    </div>
+
     
-    
-        {starNames}
  
 
 
