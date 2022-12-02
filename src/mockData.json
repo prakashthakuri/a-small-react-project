@@ -1,93 +1,8002 @@
-
- {
-    "star": [
-        {
-            "name": "Polaris",
-            "family": "Ursa Minor",
-            "status": "Guiding Star",
-            "type": "triangle",
-            "color": "#fcba03",
-            "size": "5px",
-            "position": {
-                "x": "10px",
-                "y": "20px"
-            }
-        },
-        {
-            "name": "Castor",
-            "family": "Gemini",
-            "status": "twin of Pollux",
-            "type": "circle",
-            "color": "#0388fc",
-            "size": "12px",
-            "position": {
-                "x": "30px",
-                "y": "45px"
-            }
-        },
-        {
-            "name": "Pollux",
-            "family": "Gemini",
-            "status": "Orange Red Star",
-            "type": "square",
-            "color": "#7703fc",
-            "size": "15px",
-            "position": {
-                "x": "32px",
-                "y": "32px"
-            }
-        },
-        {
-            "name": "Orion",
-            "family": "Nebula",
-            "status": "clouds of Stellar dust",
-            "type": "heart",
-            "color": "#294727",
-            "size": "11px",
-            "position": {
-                "x": "72px",
-                "y": "60px"
-            }
-        },
-        {
-            "name": "Sirius",
-            "family": "Canis Major",
-            "status": "Visible with Naked eye",
-            "type": "rectangle",
-            "color": "#83710d",
-            "size": "15px",
-            "position": {
-                "x": "10px",
-                "y": "20px"
-            }
-        },
-        {
-            "name": "Sun",
-            "family": "solar",
-            "status": "center of system",
-            "type": "arc",
-            "color": "#d4cc39",
-            "size": "15px",
-            "position": {
-                "x": "115px",
-                "y": "1150px"
-            }
-        },
-        {
-            "name": "Antares",
-            "family": "Red Giant",
-            "status": "Alpha Scorpii",
-            "type": "heart",
-            "color": "#289d2j",
-            "size": "13px",
-            "position": {
-                "x": "60px",
-                "y": "90px"
-            }
-        }
-
-    ]
-
-
-}
-   
+[
+    {
+        "name": "TMD",
+        "type": "circle",
+        "color": "#2ef066",
+        "size": 11,
+        "positionX": 291,
+        "positionY": 373
+    },
+    {
+        "name": "DBM",
+        "type": "circle",
+        "color": "#bac43b",
+        "size": 14,
+        "positionX": 110,
+        "positionY": 609
+    },
+    {
+        "name": "TUB",
+        "type": "circle",
+        "color": "#173a97",
+        "size": 12,
+        "positionX": 599,
+        "positionY": 240
+    },
+    {
+        "name": "FBD",
+        "type": "triangle",
+        "color": "#c9ef0c",
+        "size": 11,
+        "positionX": 547,
+        "positionY": 557
+    },
+    {
+        "name": "HAJ",
+        "type": "circle",
+        "color": "#4c497c",
+        "size": 6,
+        "positionX": 543,
+        "positionY": 451
+    },
+    {
+        "name": "DBK",
+        "type": "circle",
+        "color": "#550d21",
+        "size": 6,
+        "positionX": 713,
+        "positionY": 21
+    },
+    {
+        "name": "MYT",
+        "type": "triangle",
+        "color": "#0984c3",
+        "size": 10,
+        "positionX": 101,
+        "positionY": 434
+    },
+    {
+        "name": "JSR",
+        "type": "circle",
+        "color": "#36f304",
+        "size": 6,
+        "positionX": 102,
+        "positionY": 158
+    },
+    {
+        "name": "WMN",
+        "type": "triangle",
+        "color": "#30f488",
+        "size": 11,
+        "positionX": 559,
+        "positionY": 781
+    },
+    {
+        "name": "JNN",
+        "type": "square",
+        "color": "#21d36c",
+        "size": 10,
+        "positionX": 773,
+        "positionY": 781
+    },
+    {
+        "name": "KIS",
+        "type": "triangle",
+        "color": "#51fef5",
+        "size": 5,
+        "positionX": 49,
+        "positionY": 186
+    },
+    {
+        "name": "WUX",
+        "type": "square",
+        "color": "#eae6da",
+        "size": 14,
+        "positionX": 331,
+        "positionY": 498
+    },
+    {
+        "name": "TBA",
+        "type": "circle",
+        "color": "#9ac6f5",
+        "size": 13,
+        "positionX": 483,
+        "positionY": 189
+    },
+    {
+        "name": "HWA",
+        "type": "circle",
+        "color": "#abb6bf",
+        "size": 11,
+        "positionX": 9,
+        "positionY": 617
+    },
+    {
+        "name": "0",
+        "type": "triangle",
+        "color": "#74327d",
+        "size": 10,
+        "positionX": 276,
+        "positionY": 569
+    },
+    {
+        "name": "BIU",
+        "type": "square",
+        "color": "#122f70",
+        "size": 12,
+        "positionX": 513,
+        "positionY": 49
+    },
+    {
+        "name": "JGO",
+        "type": "square",
+        "color": "#bc9a16",
+        "size": 5,
+        "positionX": 604,
+        "positionY": 367
+    },
+    {
+        "name": "XJM",
+        "type": "circle",
+        "color": "#309587",
+        "size": 10,
+        "positionX": 712,
+        "positionY": 112
+    },
+    {
+        "name": "COS",
+        "type": "triangle",
+        "color": "#9b6261",
+        "size": 12,
+        "positionX": 188,
+        "positionY": 500
+    },
+    {
+        "name": "TCB",
+        "type": "triangle",
+        "color": "#4065b2",
+        "size": 14,
+        "positionX": 115,
+        "positionY": 529
+    },
+    {
+        "name": "SXW",
+        "type": "circle",
+        "color": "#f73881",
+        "size": 13,
+        "positionX": 327,
+        "positionY": 529
+    },
+    {
+        "name": "ABS",
+        "type": "square",
+        "color": "#a567fc",
+        "size": 7,
+        "positionX": 226,
+        "positionY": 665
+    },
+    {
+        "name": "QCH",
+        "type": "triangle",
+        "color": "#e73929",
+        "size": 12,
+        "positionX": 588,
+        "positionY": 477
+    },
+    {
+        "name": "GNB",
+        "type": "triangle",
+        "color": "#464771",
+        "size": 8,
+        "positionX": 116,
+        "positionY": 371
+    },
+    {
+        "name": "LIB",
+        "type": "square",
+        "color": "#a85597",
+        "size": 8,
+        "positionX": 253,
+        "positionY": 24
+    },
+    {
+        "name": "YHN",
+        "type": "square",
+        "color": "#9ccb85",
+        "size": 15,
+        "positionX": 736,
+        "positionY": 733
+    },
+    {
+        "name": "BEX",
+        "type": "circle",
+        "color": "#8b1494",
+        "size": 5,
+        "positionX": 511,
+        "positionY": 210
+    },
+    {
+        "name": "INJ",
+        "type": "circle",
+        "color": "#f73b3d",
+        "size": 5,
+        "positionX": 94,
+        "positionY": 537
+    },
+    {
+        "name": "DIB",
+        "type": "circle",
+        "color": "#32444b",
+        "size": 13,
+        "positionX": 121,
+        "positionY": 779
+    },
+    {
+        "name": "OCF",
+        "type": "circle",
+        "color": "#7e0aa5",
+        "size": 12,
+        "positionX": 699,
+        "positionY": 226
+    },
+    {
+        "name": "NSI",
+        "type": "square",
+        "color": "#1b28c8",
+        "size": 7,
+        "positionX": 261,
+        "positionY": 650
+    },
+    {
+        "name": "BUI",
+        "type": "triangle",
+        "color": "#31ab95",
+        "size": 7,
+        "positionX": 264,
+        "positionY": 428
+    },
+    {
+        "name": "PTT",
+        "type": "triangle",
+        "color": "#53da42",
+        "size": 8,
+        "positionX": 677,
+        "positionY": 717
+    },
+    {
+        "name": "DAM",
+        "type": "triangle",
+        "color": "#3d0365",
+        "size": 6,
+        "positionX": 68,
+        "positionY": 109
+    },
+    {
+        "name": "BKE",
+        "type": "circle",
+        "color": "#c51baf",
+        "size": 14,
+        "positionX": 47,
+        "positionY": 560
+    },
+    {
+        "name": "HHN",
+        "type": "square",
+        "color": "#c055e6",
+        "size": 7,
+        "positionX": 652,
+        "positionY": 411
+    },
+    {
+        "name": "SFT",
+        "type": "square",
+        "color": "#3ddfe8",
+        "size": 9,
+        "positionX": 716,
+        "positionY": 356
+    },
+    {
+        "name": "MCW",
+        "type": "triangle",
+        "color": "#45469c",
+        "size": 10,
+        "positionX": 172,
+        "positionY": 225
+    },
+    {
+        "name": "VRB",
+        "type": "square",
+        "color": "#4d55d4",
+        "size": 8,
+        "positionX": 391,
+        "positionY": 666
+    },
+    {
+        "name": "YQX",
+        "type": "triangle",
+        "color": "#ea67f3",
+        "size": 9,
+        "positionX": 761,
+        "positionY": 385
+    },
+    {
+        "name": "BGD",
+        "type": "square",
+        "color": "#798567",
+        "size": 13,
+        "positionX": 780,
+        "positionY": 773
+    },
+    {
+        "name": "OAZ",
+        "type": "square",
+        "color": "#a04844",
+        "size": 14,
+        "positionX": 721,
+        "positionY": 388
+    },
+    {
+        "name": "AGS",
+        "type": "circle",
+        "color": "#6268e2",
+        "size": 13,
+        "positionX": 84,
+        "positionY": 795
+    },
+    {
+        "name": "HGR",
+        "type": "circle",
+        "color": "#1e6552",
+        "size": 11,
+        "positionX": 624,
+        "positionY": 510
+    },
+    {
+        "name": "ANV",
+        "type": "square",
+        "color": "#f59558",
+        "size": 8,
+        "positionX": 182,
+        "positionY": 628
+    },
+    {
+        "name": "ZKL",
+        "type": "circle",
+        "color": "#8f2208",
+        "size": 6,
+        "positionX": 99,
+        "positionY": 487
+    },
+    {
+        "name": "WLH",
+        "type": "circle",
+        "color": "#0609d5",
+        "size": 14,
+        "positionX": 294,
+        "positionY": 474
+    },
+    {
+        "name": "LUT",
+        "type": "circle",
+        "color": "#5ace8c",
+        "size": 15,
+        "positionX": 327,
+        "positionY": 719
+    },
+    {
+        "name": "AZI",
+        "type": "triangle",
+        "color": "#faa5c0",
+        "size": 10,
+        "positionX": 271,
+        "positionY": 556
+    },
+    {
+        "name": "YCE",
+        "type": "triangle",
+        "color": "#11feb6",
+        "size": 10,
+        "positionX": 529,
+        "positionY": 1
+    },
+    {
+        "name": "MCT",
+        "type": "square",
+        "color": "#00fca0",
+        "size": 15,
+        "positionX": 18,
+        "positionY": 150
+    },
+    {
+        "name": "PDR",
+        "type": "square",
+        "color": "#338bc2",
+        "size": 13,
+        "positionX": 400,
+        "positionY": 439
+    },
+    {
+        "name": "0",
+        "type": "triangle",
+        "color": "#5675d1",
+        "size": 6,
+        "positionX": 125,
+        "positionY": 626
+    },
+    {
+        "name": "KXR",
+        "type": "triangle",
+        "color": "#6d1ecf",
+        "size": 8,
+        "positionX": 550,
+        "positionY": 751
+    },
+    {
+        "name": "KWN",
+        "type": "square",
+        "color": "#f9556f",
+        "size": 13,
+        "positionX": 371,
+        "positionY": 668
+    },
+    {
+        "name": "YCU",
+        "type": "circle",
+        "color": "#e2d0e8",
+        "size": 13,
+        "positionX": 718,
+        "positionY": 260
+    },
+    {
+        "name": "SWS",
+        "type": "circle",
+        "color": "#5c7027",
+        "size": 12,
+        "positionX": 658,
+        "positionY": 91
+    },
+    {
+        "name": "RNP",
+        "type": "square",
+        "color": "#8f28c2",
+        "size": 7,
+        "positionX": 649,
+        "positionY": 232
+    },
+    {
+        "name": "TLW",
+        "type": "triangle",
+        "color": "#80fcaa",
+        "size": 6,
+        "positionX": 262,
+        "positionY": 53
+    },
+    {
+        "name": "GUM",
+        "type": "triangle",
+        "color": "#ff3058",
+        "size": 7,
+        "positionX": 433,
+        "positionY": 656
+    },
+    {
+        "name": "TSG",
+        "type": "triangle",
+        "color": "#a9cf60",
+        "size": 7,
+        "positionX": 160,
+        "positionY": 535
+    },
+    {
+        "name": "VAD",
+        "type": "square",
+        "color": "#c00ebc",
+        "size": 15,
+        "positionX": 399,
+        "positionY": 237
+    },
+    {
+        "name": "YFA",
+        "type": "triangle",
+        "color": "#4c233b",
+        "size": 7,
+        "positionX": 242,
+        "positionY": 431
+    },
+    {
+        "name": "ZFA",
+        "type": "triangle",
+        "color": "#dd868d",
+        "size": 10,
+        "positionX": 680,
+        "positionY": 754
+    },
+    {
+        "name": "CUI",
+        "type": "square",
+        "color": "#c3ce71",
+        "size": 7,
+        "positionX": 4,
+        "positionY": 620
+    },
+    {
+        "name": "MHH",
+        "type": "circle",
+        "color": "#6a062a",
+        "size": 8,
+        "positionX": 772,
+        "positionY": 53
+    },
+    {
+        "name": "FLL",
+        "type": "triangle",
+        "color": "#0b43fc",
+        "size": 11,
+        "positionX": 87,
+        "positionY": 499
+    },
+    {
+        "name": "HMY",
+        "type": "square",
+        "color": "#0896c6",
+        "size": 7,
+        "positionX": 764,
+        "positionY": 424
+    },
+    {
+        "name": "GRI",
+        "type": "circle",
+        "color": "#422e78",
+        "size": 5,
+        "positionX": 273,
+        "positionY": 600
+    },
+    {
+        "name": "MKU",
+        "type": "circle",
+        "color": "#97b261",
+        "size": 10,
+        "positionX": 370,
+        "positionY": 86
+    },
+    {
+        "name": "LNJ",
+        "type": "square",
+        "color": "#387fe5",
+        "size": 10,
+        "positionX": 19,
+        "positionY": 567
+    },
+    {
+        "name": "MYA",
+        "type": "circle",
+        "color": "#b65bbb",
+        "size": 15,
+        "positionX": 211,
+        "positionY": 311
+    },
+    {
+        "name": "SRP",
+        "type": "triangle",
+        "color": "#55aab6",
+        "size": 12,
+        "positionX": 416,
+        "positionY": 263
+    },
+    {
+        "name": "VDY",
+        "type": "circle",
+        "color": "#dc7441",
+        "size": 14,
+        "positionX": 34,
+        "positionY": 361
+    },
+    {
+        "name": "GJM",
+        "type": "circle",
+        "color": "#435870",
+        "size": 11,
+        "positionX": 492,
+        "positionY": 343
+    },
+    {
+        "name": "0",
+        "type": "circle",
+        "color": "#378604",
+        "size": 13,
+        "positionX": 389,
+        "positionY": 377
+    },
+    {
+        "name": "NLA",
+        "type": "triangle",
+        "color": "#894c33",
+        "size": 11,
+        "positionX": 326,
+        "positionY": 506
+    },
+    {
+        "name": "MNU",
+        "type": "triangle",
+        "color": "#51671a",
+        "size": 9,
+        "positionX": 186,
+        "positionY": 130
+    },
+    {
+        "name": "NPA",
+        "type": "triangle",
+        "color": "#77ec70",
+        "size": 8,
+        "positionX": 179,
+        "positionY": 560
+    },
+    {
+        "name": "LGH",
+        "type": "circle",
+        "color": "#b2a954",
+        "size": 15,
+        "positionX": 335,
+        "positionY": 657
+    },
+    {
+        "name": "SEH",
+        "type": "triangle",
+        "color": "#393279",
+        "size": 10,
+        "positionX": 224,
+        "positionY": 767
+    },
+    {
+        "name": "OPF",
+        "type": "square",
+        "color": "#6966fd",
+        "size": 10,
+        "positionX": 615,
+        "positionY": 105
+    },
+    {
+        "name": "ESL",
+        "type": "triangle",
+        "color": "#763e43",
+        "size": 8,
+        "positionX": 234,
+        "positionY": 613
+    },
+    {
+        "name": "ACA",
+        "type": "triangle",
+        "color": "#452d50",
+        "size": 15,
+        "positionX": 651,
+        "positionY": 192
+    },
+    {
+        "name": "YTQ",
+        "type": "square",
+        "color": "#b8bbdc",
+        "size": 11,
+        "positionX": 66,
+        "positionY": 584
+    },
+    {
+        "name": "OPA",
+        "type": "circle",
+        "color": "#3e832e",
+        "size": 5,
+        "positionX": 575,
+        "positionY": 799
+    },
+    {
+        "name": "VLA",
+        "type": "square",
+        "color": "#e3aa59",
+        "size": 15,
+        "positionX": 515,
+        "positionY": 547
+    },
+    {
+        "name": "QNY",
+        "type": "triangle",
+        "color": "#818db5",
+        "size": 11,
+        "positionX": 577,
+        "positionY": 732
+    },
+    {
+        "name": "VXE",
+        "type": "triangle",
+        "color": "#51e29c",
+        "size": 11,
+        "positionX": 464,
+        "positionY": 768
+    },
+    {
+        "name": "YPS",
+        "type": "square",
+        "color": "#ec4f17",
+        "size": 11,
+        "positionX": 592,
+        "positionY": 743
+    },
+    {
+        "name": "MCE",
+        "type": "circle",
+        "color": "#d5522f",
+        "size": 8,
+        "positionX": 217,
+        "positionY": 223
+    },
+    {
+        "name": "LNA",
+        "type": "square",
+        "color": "#3f011a",
+        "size": 7,
+        "positionX": 793,
+        "positionY": 759
+    },
+    {
+        "name": "BTO",
+        "type": "circle",
+        "color": "#4de717",
+        "size": 13,
+        "positionX": 153,
+        "positionY": 97
+    },
+    {
+        "name": "BWW",
+        "type": "triangle",
+        "color": "#c2f7d5",
+        "size": 12,
+        "positionX": 524,
+        "positionY": 227
+    },
+    {
+        "name": "MHA",
+        "type": "triangle",
+        "color": "#38917c",
+        "size": 12,
+        "positionX": 200,
+        "positionY": 540
+    },
+    {
+        "name": "BCA",
+        "type": "triangle",
+        "color": "#088128",
+        "size": 9,
+        "positionX": 394,
+        "positionY": 295
+    },
+    {
+        "name": "KUQ",
+        "type": "circle",
+        "color": "#d1090f",
+        "size": 9,
+        "positionX": 365,
+        "positionY": 336
+    },
+    {
+        "name": "BXG",
+        "type": "square",
+        "color": "#b9c67f",
+        "size": 11,
+        "positionX": 5,
+        "positionY": 164
+    },
+    {
+        "name": "DNP",
+        "type": "circle",
+        "color": "#d8c364",
+        "size": 5,
+        "positionX": 505,
+        "positionY": 536
+    },
+    {
+        "name": "TCY",
+        "type": "triangle",
+        "color": "#c7e14e",
+        "size": 13,
+        "positionX": 795,
+        "positionY": 761
+    },
+    {
+        "name": "CBX",
+        "type": "circle",
+        "color": "#8b06ad",
+        "size": 8,
+        "positionX": 179,
+        "positionY": 327
+    },
+    {
+        "name": "RVN",
+        "type": "circle",
+        "color": "#398d28",
+        "size": 14,
+        "positionX": 206,
+        "positionY": 103
+    },
+    {
+        "name": "DIB",
+        "type": "square",
+        "color": "#b7b8a2",
+        "size": 8,
+        "positionX": 132,
+        "positionY": 27
+    },
+    {
+        "name": "LZN",
+        "type": "square",
+        "color": "#f07de4",
+        "size": 14,
+        "positionX": 57,
+        "positionY": 728
+    },
+    {
+        "name": "CTY",
+        "type": "triangle",
+        "color": "#ba500c",
+        "size": 13,
+        "positionX": 76,
+        "positionY": 32
+    },
+    {
+        "name": "WBR",
+        "type": "square",
+        "color": "#375d0d",
+        "size": 10,
+        "positionX": 593,
+        "positionY": 137
+    },
+    {
+        "name": "MIG",
+        "type": "square",
+        "color": "#cc534d",
+        "size": 14,
+        "positionX": 205,
+        "positionY": 356
+    },
+    {
+        "name": "UTG",
+        "type": "triangle",
+        "color": "#03c5ee",
+        "size": 11,
+        "positionX": 74,
+        "positionY": 681
+    },
+    {
+        "name": "SQU",
+        "type": "square",
+        "color": "#e0aac0",
+        "size": 14,
+        "positionX": 435,
+        "positionY": 730
+    },
+    {
+        "name": "EVM",
+        "type": "circle",
+        "color": "#f47836",
+        "size": 5,
+        "positionX": 329,
+        "positionY": 497
+    },
+    {
+        "name": "IKO",
+        "type": "triangle",
+        "color": "#600fd5",
+        "size": 10,
+        "positionX": 488,
+        "positionY": 247
+    },
+    {
+        "name": "TES",
+        "type": "triangle",
+        "color": "#4e54fe",
+        "size": 6,
+        "positionX": 270,
+        "positionY": 81
+    },
+    {
+        "name": "KPC",
+        "type": "triangle",
+        "color": "#082b3b",
+        "size": 9,
+        "positionX": 519,
+        "positionY": 92
+    },
+    {
+        "name": "BAH",
+        "type": "square",
+        "color": "#d9a110",
+        "size": 11,
+        "positionX": 164,
+        "positionY": 733
+    },
+    {
+        "name": "WEA",
+        "type": "circle",
+        "color": "#99e6ee",
+        "size": 9,
+        "positionX": 187,
+        "positionY": 219
+    },
+    {
+        "name": "GAN",
+        "type": "circle",
+        "color": "#9319b8",
+        "size": 7,
+        "positionX": 794,
+        "positionY": 400
+    },
+    {
+        "name": "YMP",
+        "type": "circle",
+        "color": "#8c9b23",
+        "size": 8,
+        "positionX": 552,
+        "positionY": 720
+    },
+    {
+        "name": "GSA",
+        "type": "triangle",
+        "color": "#a57b32",
+        "size": 7,
+        "positionX": 562,
+        "positionY": 437
+    },
+    {
+        "name": "PZL",
+        "type": "triangle",
+        "color": "#a245bf",
+        "size": 13,
+        "positionX": 323,
+        "positionY": 778
+    },
+    {
+        "name": "VDZ",
+        "type": "circle",
+        "color": "#d4344d",
+        "size": 8,
+        "positionX": 328,
+        "positionY": 191
+    },
+    {
+        "name": "ROC",
+        "type": "square",
+        "color": "#a421ce",
+        "size": 12,
+        "positionX": 745,
+        "positionY": 326
+    },
+    {
+        "name": "KVL",
+        "type": "triangle",
+        "color": "#c4d886",
+        "size": 6,
+        "positionX": 769,
+        "positionY": 782
+    },
+    {
+        "name": "TVL",
+        "type": "circle",
+        "color": "#06debc",
+        "size": 11,
+        "positionX": 602,
+        "positionY": 792
+    },
+    {
+        "name": "DYM",
+        "type": "triangle",
+        "color": "#d1d471",
+        "size": 13,
+        "positionX": 546,
+        "positionY": 629
+    },
+    {
+        "name": "HNB",
+        "type": "square",
+        "color": "#f50155",
+        "size": 12,
+        "positionX": 712,
+        "positionY": 275
+    },
+    {
+        "name": "FBY",
+        "type": "square",
+        "color": "#4e6fd4",
+        "size": 14,
+        "positionX": 588,
+        "positionY": 176
+    },
+    {
+        "name": "KRT",
+        "type": "square",
+        "color": "#3bfaa9",
+        "size": 10,
+        "positionX": 116,
+        "positionY": 380
+    },
+    {
+        "name": "EXT",
+        "type": "circle",
+        "color": "#cb7e25",
+        "size": 5,
+        "positionX": 337,
+        "positionY": 126
+    },
+    {
+        "name": "NBS",
+        "type": "triangle",
+        "color": "#2e7b48",
+        "size": 7,
+        "positionX": 409,
+        "positionY": 680
+    },
+    {
+        "name": "FRH",
+        "type": "triangle",
+        "color": "#1ad35b",
+        "size": 14,
+        "positionX": 95,
+        "positionY": 644
+    },
+    {
+        "name": "YTA",
+        "type": "circle",
+        "color": "#8a5141",
+        "size": 5,
+        "positionX": 37,
+        "positionY": 334
+    },
+    {
+        "name": "IMM",
+        "type": "triangle",
+        "color": "#7b87af",
+        "size": 5,
+        "positionX": 332,
+        "positionY": 105
+    },
+    {
+        "name": "LBB",
+        "type": "circle",
+        "color": "#ec3131",
+        "size": 5,
+        "positionX": 604,
+        "positionY": 695
+    },
+    {
+        "name": "KHH",
+        "type": "circle",
+        "color": "#5722cf",
+        "size": 12,
+        "positionX": 170,
+        "positionY": 328
+    },
+    {
+        "name": "PZK",
+        "type": "circle",
+        "color": "#a73768",
+        "size": 12,
+        "positionX": 671,
+        "positionY": 499
+    },
+    {
+        "name": "BEQ",
+        "type": "square",
+        "color": "#a30da6",
+        "size": 15,
+        "positionX": 302,
+        "positionY": 160
+    },
+    {
+        "name": "KLF",
+        "type": "triangle",
+        "color": "#40ee9b",
+        "size": 11,
+        "positionX": 108,
+        "positionY": 401
+    },
+    {
+        "name": "FAL",
+        "type": "circle",
+        "color": "#82092e",
+        "size": 8,
+        "positionX": 267,
+        "positionY": 306
+    },
+    {
+        "name": "KTY",
+        "type": "square",
+        "color": "#a4be76",
+        "size": 5,
+        "positionX": 444,
+        "positionY": 753
+    },
+    {
+        "name": "BZO",
+        "type": "circle",
+        "color": "#161e0c",
+        "size": 9,
+        "positionX": 51,
+        "positionY": 326
+    },
+    {
+        "name": "MQT",
+        "type": "triangle",
+        "color": "#548be4",
+        "size": 15,
+        "positionX": 90,
+        "positionY": 631
+    },
+    {
+        "name": "VCE",
+        "type": "triangle",
+        "color": "#63ebf8",
+        "size": 7,
+        "positionX": 686,
+        "positionY": 249
+    },
+    {
+        "name": "MYB",
+        "type": "circle",
+        "color": "#171671",
+        "size": 12,
+        "positionX": 488,
+        "positionY": 380
+    },
+    {
+        "name": "ATA",
+        "type": "square",
+        "color": "#a54401",
+        "size": 9,
+        "positionX": 114,
+        "positionY": 630
+    },
+    {
+        "name": "CGD",
+        "type": "circle",
+        "color": "#393b04",
+        "size": 10,
+        "positionX": 482,
+        "positionY": 116
+    },
+    {
+        "name": "FNU",
+        "type": "triangle",
+        "color": "#2e5251",
+        "size": 7,
+        "positionX": 763,
+        "positionY": 690
+    },
+    {
+        "name": "TYN",
+        "type": "square",
+        "color": "#01215a",
+        "size": 11,
+        "positionX": 90,
+        "positionY": 605
+    },
+    {
+        "name": "SMF",
+        "type": "square",
+        "color": "#e37b2d",
+        "size": 5,
+        "positionX": 219,
+        "positionY": 157
+    },
+    {
+        "name": "MKU",
+        "type": "triangle",
+        "color": "#315526",
+        "size": 14,
+        "positionX": 699,
+        "positionY": 536
+    },
+    {
+        "name": "CFE",
+        "type": "triangle",
+        "color": "#7fe672",
+        "size": 14,
+        "positionX": 216,
+        "positionY": 136
+    },
+    {
+        "name": "TSC",
+        "type": "circle",
+        "color": "#16102a",
+        "size": 9,
+        "positionX": 467,
+        "positionY": 612
+    },
+    {
+        "name": "TYL",
+        "type": "square",
+        "color": "#1aa50e",
+        "size": 5,
+        "positionX": 114,
+        "positionY": 431
+    },
+    {
+        "name": "NNL",
+        "type": "circle",
+        "color": "#abe11d",
+        "size": 13,
+        "positionX": 768,
+        "positionY": 477
+    },
+    {
+        "name": "EDA",
+        "type": "triangle",
+        "color": "#762615",
+        "size": 7,
+        "positionX": 603,
+        "positionY": 631
+    },
+    {
+        "name": "SAM",
+        "type": "triangle",
+        "color": "#9c8c43",
+        "size": 15,
+        "positionX": 741,
+        "positionY": 219
+    },
+    {
+        "name": "LOC",
+        "type": "circle",
+        "color": "#3d64ed",
+        "size": 8,
+        "positionX": 119,
+        "positionY": 205
+    },
+    {
+        "name": "BTZ",
+        "type": "circle",
+        "color": "#d364d3",
+        "size": 8,
+        "positionX": 737,
+        "positionY": 638
+    },
+    {
+        "name": "TSR",
+        "type": "square",
+        "color": "#8764aa",
+        "size": 9,
+        "positionX": 363,
+        "positionY": 601
+    },
+    {
+        "name": "OSY",
+        "type": "triangle",
+        "color": "#e2a2df",
+        "size": 5,
+        "positionX": 597,
+        "positionY": 308
+    },
+    {
+        "name": "GAT",
+        "type": "circle",
+        "color": "#efdb26",
+        "size": 15,
+        "positionX": 152,
+        "positionY": 277
+    },
+    {
+        "name": "ISE",
+        "type": "circle",
+        "color": "#fea754",
+        "size": 8,
+        "positionX": 753,
+        "positionY": 83
+    },
+    {
+        "name": "CKA",
+        "type": "triangle",
+        "color": "#34da4d",
+        "size": 5,
+        "positionX": 572,
+        "positionY": 36
+    },
+    {
+        "name": "KSA",
+        "type": "triangle",
+        "color": "#eb75ba",
+        "size": 14,
+        "positionX": 119,
+        "positionY": 25
+    },
+    {
+        "name": "LHR",
+        "type": "triangle",
+        "color": "#011986",
+        "size": 12,
+        "positionX": 190,
+        "positionY": 352
+    },
+    {
+        "name": "MJA",
+        "type": "square",
+        "color": "#ffd560",
+        "size": 14,
+        "positionX": 37,
+        "positionY": 467
+    },
+    {
+        "name": "EPL",
+        "type": "triangle",
+        "color": "#b821b2",
+        "size": 5,
+        "positionX": 362,
+        "positionY": 384
+    },
+    {
+        "name": "AKI",
+        "type": "triangle",
+        "color": "#417f28",
+        "size": 15,
+        "positionX": 749,
+        "positionY": 52
+    },
+    {
+        "name": "UYU",
+        "type": "circle",
+        "color": "#b8788f",
+        "size": 8,
+        "positionX": 579,
+        "positionY": 728
+    },
+    {
+        "name": "CAE",
+        "type": "triangle",
+        "color": "#3d5dd9",
+        "size": 5,
+        "positionX": 21,
+        "positionY": 329
+    },
+    {
+        "name": "GBI",
+        "type": "triangle",
+        "color": "#7ab71c",
+        "size": 14,
+        "positionX": 537,
+        "positionY": 751
+    },
+    {
+        "name": "DRC",
+        "type": "square",
+        "color": "#2f5774",
+        "size": 13,
+        "positionX": 384,
+        "positionY": 308
+    },
+    {
+        "name": "WHU",
+        "type": "square",
+        "color": "#ef8819",
+        "size": 5,
+        "positionX": 45,
+        "positionY": 587
+    },
+    {
+        "name": "MWP",
+        "type": "circle",
+        "color": "#5a854c",
+        "size": 12,
+        "positionX": 505,
+        "positionY": 423
+    },
+    {
+        "name": "DDG",
+        "type": "circle",
+        "color": "#c1cae1",
+        "size": 11,
+        "positionX": 128,
+        "positionY": 241
+    },
+    {
+        "name": "CDT",
+        "type": "triangle",
+        "color": "#c38ebf",
+        "size": 11,
+        "positionX": 55,
+        "positionY": 720
+    },
+    {
+        "name": "EYL",
+        "type": "triangle",
+        "color": "#d41041",
+        "size": 13,
+        "positionX": 286,
+        "positionY": 39
+    },
+    {
+        "name": "LSP",
+        "type": "square",
+        "color": "#ee184e",
+        "size": 15,
+        "positionX": 17,
+        "positionY": 690
+    },
+    {
+        "name": "EDO",
+        "type": "triangle",
+        "color": "#e2f705",
+        "size": 15,
+        "positionX": 607,
+        "positionY": 608
+    },
+    {
+        "name": "ACZ",
+        "type": "square",
+        "color": "#8e7112",
+        "size": 7,
+        "positionX": 14,
+        "positionY": 164
+    },
+    {
+        "name": "BKK",
+        "type": "triangle",
+        "color": "#0ee684",
+        "size": 5,
+        "positionX": 755,
+        "positionY": 431
+    },
+    {
+        "name": "OTN",
+        "type": "square",
+        "color": "#0f7d64",
+        "size": 11,
+        "positionX": 226,
+        "positionY": 248
+    },
+    {
+        "name": "QOJ",
+        "type": "circle",
+        "color": "#b5cc2a",
+        "size": 14,
+        "positionX": 682,
+        "positionY": 169
+    },
+    {
+        "name": "HAJ",
+        "type": "circle",
+        "color": "#e5c47f",
+        "size": 7,
+        "positionX": 157,
+        "positionY": 96
+    },
+    {
+        "name": "URZ",
+        "type": "square",
+        "color": "#07f69e",
+        "size": 15,
+        "positionX": 431,
+        "positionY": 653
+    },
+    {
+        "name": "DRU",
+        "type": "square",
+        "color": "#2f966d",
+        "size": 6,
+        "positionX": 216,
+        "positionY": 423
+    },
+    {
+        "name": "ONJ",
+        "type": "square",
+        "color": "#849d96",
+        "size": 5,
+        "positionX": 90,
+        "positionY": 4
+    },
+    {
+        "name": "BCT",
+        "type": "square",
+        "color": "#7d7e73",
+        "size": 12,
+        "positionX": 390,
+        "positionY": 292
+    },
+    {
+        "name": "TFB",
+        "type": "triangle",
+        "color": "#d47fab",
+        "size": 8,
+        "positionX": 410,
+        "positionY": 606
+    },
+    {
+        "name": "CGM",
+        "type": "square",
+        "color": "#d967db",
+        "size": 14,
+        "positionX": 491,
+        "positionY": 492
+    },
+    {
+        "name": "MPO",
+        "type": "triangle",
+        "color": "#4d92b4",
+        "size": 5,
+        "positionX": 430,
+        "positionY": 449
+    },
+    {
+        "name": "YOY",
+        "type": "circle",
+        "color": "#bf489a",
+        "size": 15,
+        "positionX": 521,
+        "positionY": 530
+    },
+    {
+        "name": "BMF",
+        "type": "square",
+        "color": "#563e3f",
+        "size": 11,
+        "positionX": 573,
+        "positionY": 796
+    },
+    {
+        "name": "TVF",
+        "type": "circle",
+        "color": "#951f42",
+        "size": 15,
+        "positionX": 228,
+        "positionY": 775
+    },
+    {
+        "name": "MOH",
+        "type": "circle",
+        "color": "#5c79a2",
+        "size": 9,
+        "positionX": 133,
+        "positionY": 606
+    },
+    {
+        "name": "GLO",
+        "type": "square",
+        "color": "#ff281a",
+        "size": 6,
+        "positionX": 684,
+        "positionY": 189
+    },
+    {
+        "name": "BMX",
+        "type": "square",
+        "color": "#18c69c",
+        "size": 8,
+        "positionX": 659,
+        "positionY": 175
+    },
+    {
+        "name": "KUQ",
+        "type": "circle",
+        "color": "#5f923e",
+        "size": 9,
+        "positionX": 709,
+        "positionY": 184
+    },
+    {
+        "name": "VRK",
+        "type": "square",
+        "color": "#de6116",
+        "size": 15,
+        "positionX": 53,
+        "positionY": 555
+    },
+    {
+        "name": "QGB",
+        "type": "circle",
+        "color": "#9424ae",
+        "size": 14,
+        "positionX": 11,
+        "positionY": 169
+    },
+    {
+        "name": "YXT",
+        "type": "circle",
+        "color": "#649f01",
+        "size": 14,
+        "positionX": 469,
+        "positionY": 372
+    },
+    {
+        "name": "CVC",
+        "type": "circle",
+        "color": "#7d7efa",
+        "size": 12,
+        "positionX": 556,
+        "positionY": 35
+    },
+    {
+        "name": "BFJ",
+        "type": "square",
+        "color": "#bfa929",
+        "size": 15,
+        "positionX": 757,
+        "positionY": 686
+    },
+    {
+        "name": "ZZO",
+        "type": "circle",
+        "color": "#b96634",
+        "size": 12,
+        "positionX": 374,
+        "positionY": 773
+    },
+    {
+        "name": "KOU",
+        "type": "triangle",
+        "color": "#b04343",
+        "size": 14,
+        "positionX": 546,
+        "positionY": 679
+    },
+    {
+        "name": "ERU",
+        "type": "circle",
+        "color": "#3814e2",
+        "size": 13,
+        "positionX": 448,
+        "positionY": 423
+    },
+    {
+        "name": "IVR",
+        "type": "square",
+        "color": "#ba42f1",
+        "size": 6,
+        "positionX": 564,
+        "positionY": 640
+    },
+    {
+        "name": "BMZ",
+        "type": "square",
+        "color": "#276886",
+        "size": 9,
+        "positionX": 310,
+        "positionY": 29
+    },
+    {
+        "name": "SQU",
+        "type": "triangle",
+        "color": "#31fbf5",
+        "size": 14,
+        "positionX": 262,
+        "positionY": 654
+    },
+    {
+        "name": "CVO",
+        "type": "triangle",
+        "color": "#9cbc39",
+        "size": 13,
+        "positionX": 436,
+        "positionY": 662
+    },
+    {
+        "name": "VAR",
+        "type": "circle",
+        "color": "#030bc0",
+        "size": 9,
+        "positionX": 603,
+        "positionY": 445
+    },
+    {
+        "name": "JBQ",
+        "type": "square",
+        "color": "#f833e3",
+        "size": 12,
+        "positionX": 518,
+        "positionY": 404
+    },
+    {
+        "name": "REH",
+        "type": "square",
+        "color": "#cc1e08",
+        "size": 6,
+        "positionX": 724,
+        "positionY": 626
+    },
+    {
+        "name": "CYB",
+        "type": "triangle",
+        "color": "#529aaf",
+        "size": 9,
+        "positionX": 686,
+        "positionY": 742
+    },
+    {
+        "name": "TCC",
+        "type": "circle",
+        "color": "#9e8465",
+        "size": 5,
+        "positionX": 717,
+        "positionY": 185
+    },
+    {
+        "name": "DVO",
+        "type": "circle",
+        "color": "#a4a339",
+        "size": 15,
+        "positionX": 445,
+        "positionY": 27
+    },
+    {
+        "name": "POA",
+        "type": "square",
+        "color": "#459a7f",
+        "size": 10,
+        "positionX": 622,
+        "positionY": 45
+    },
+    {
+        "name": "CSG",
+        "type": "triangle",
+        "color": "#95bc20",
+        "size": 14,
+        "positionX": 481,
+        "positionY": 542
+    },
+    {
+        "name": "BTE",
+        "type": "circle",
+        "color": "#51811a",
+        "size": 7,
+        "positionX": 107,
+        "positionY": 420
+    },
+    {
+        "name": "ELB",
+        "type": "triangle",
+        "color": "#8c35de",
+        "size": 15,
+        "positionX": 113,
+        "positionY": 493
+    },
+    {
+        "name": "JHB",
+        "type": "triangle",
+        "color": "#416020",
+        "size": 9,
+        "positionX": 97,
+        "positionY": 143
+    },
+    {
+        "name": "PMT",
+        "type": "circle",
+        "color": "#7a750b",
+        "size": 10,
+        "positionX": 83,
+        "positionY": 523
+    },
+    {
+        "name": "SVT",
+        "type": "square",
+        "color": "#7f1f6b",
+        "size": 7,
+        "positionX": 74,
+        "positionY": 397
+    },
+    {
+        "name": "PLJ",
+        "type": "square",
+        "color": "#4385da",
+        "size": 6,
+        "positionX": 676,
+        "positionY": 381
+    },
+    {
+        "name": "HHP",
+        "type": "triangle",
+        "color": "#17765c",
+        "size": 7,
+        "positionX": 434,
+        "positionY": 758
+    },
+    {
+        "name": "CHM",
+        "type": "triangle",
+        "color": "#8ee042",
+        "size": 11,
+        "positionX": 125,
+        "positionY": 103
+    },
+    {
+        "name": "PRM",
+        "type": "circle",
+        "color": "#1e3605",
+        "size": 15,
+        "positionX": 415,
+        "positionY": 724
+    },
+    {
+        "name": "KHC",
+        "type": "circle",
+        "color": "#c60888",
+        "size": 8,
+        "positionX": 561,
+        "positionY": 646
+    },
+    {
+        "name": "TTB",
+        "type": "square",
+        "color": "#4d617d",
+        "size": 15,
+        "positionX": 571,
+        "positionY": 606
+    },
+    {
+        "name": "YDL",
+        "type": "circle",
+        "color": "#50acaf",
+        "size": 11,
+        "positionX": 639,
+        "positionY": 522
+    },
+    {
+        "name": "GZW",
+        "type": "triangle",
+        "color": "#06d9f5",
+        "size": 12,
+        "positionX": 234,
+        "positionY": 576
+    },
+    {
+        "name": "FUM",
+        "type": "circle",
+        "color": "#9745f6",
+        "size": 5,
+        "positionX": 28,
+        "positionY": 68
+    },
+    {
+        "name": "LPU",
+        "type": "square",
+        "color": "#29d160",
+        "size": 6,
+        "positionX": 408,
+        "positionY": 702
+    },
+    {
+        "name": "TRJ",
+        "type": "square",
+        "color": "#018fa6",
+        "size": 12,
+        "positionX": 631,
+        "positionY": 575
+    },
+    {
+        "name": "TUG",
+        "type": "triangle",
+        "color": "#1c4070",
+        "size": 10,
+        "positionX": 721,
+        "positionY": 431
+    },
+    {
+        "name": "BAU",
+        "type": "circle",
+        "color": "#908dc7",
+        "size": 7,
+        "positionX": 372,
+        "positionY": 360
+    },
+    {
+        "name": "NGO",
+        "type": "square",
+        "color": "#cfdfd5",
+        "size": 11,
+        "positionX": 663,
+        "positionY": 260
+    },
+    {
+        "name": "TIP",
+        "type": "square",
+        "color": "#c13519",
+        "size": 15,
+        "positionX": 648,
+        "positionY": 426
+    },
+    {
+        "name": "MTJ",
+        "type": "square",
+        "color": "#1bc399",
+        "size": 9,
+        "positionX": 651,
+        "positionY": 62
+    },
+    {
+        "name": "EGI",
+        "type": "circle",
+        "color": "#1a6d51",
+        "size": 8,
+        "positionX": 736,
+        "positionY": 205
+    },
+    {
+        "name": "MHT",
+        "type": "triangle",
+        "color": "#ea5cbc",
+        "size": 7,
+        "positionX": 444,
+        "positionY": 702
+    },
+    {
+        "name": "JIM",
+        "type": "circle",
+        "color": "#b6d419",
+        "size": 13,
+        "positionX": 501,
+        "positionY": 634
+    },
+    {
+        "name": "GGL",
+        "type": "square",
+        "color": "#6fbf2a",
+        "size": 13,
+        "positionX": 109,
+        "positionY": 283
+    },
+    {
+        "name": "RIG",
+        "type": "square",
+        "color": "#a42460",
+        "size": 7,
+        "positionX": 774,
+        "positionY": 357
+    },
+    {
+        "name": "RLA",
+        "type": "triangle",
+        "color": "#2d74c9",
+        "size": 14,
+        "positionX": 695,
+        "positionY": 355
+    },
+    {
+        "name": "BLW",
+        "type": "square",
+        "color": "#7e8d54",
+        "size": 13,
+        "positionX": 700,
+        "positionY": 799
+    },
+    {
+        "name": "VTN",
+        "type": "square",
+        "color": "#579cf1",
+        "size": 5,
+        "positionX": 397,
+        "positionY": 640
+    },
+    {
+        "name": "TJL",
+        "type": "triangle",
+        "color": "#bbf8a2",
+        "size": 12,
+        "positionX": 790,
+        "positionY": 192
+    },
+    {
+        "name": "SFE",
+        "type": "triangle",
+        "color": "#499a50",
+        "size": 6,
+        "positionX": 638,
+        "positionY": 308
+    },
+    {
+        "name": "OLZ",
+        "type": "square",
+        "color": "#696400",
+        "size": 9,
+        "positionX": 227,
+        "positionY": 722
+    },
+    {
+        "name": "CUU",
+        "type": "circle",
+        "color": "#e206d4",
+        "size": 9,
+        "positionX": 452,
+        "positionY": 695
+    },
+    {
+        "name": "MUG",
+        "type": "triangle",
+        "color": "#1f1072",
+        "size": 6,
+        "positionX": 383,
+        "positionY": 350
+    },
+    {
+        "name": "RAE",
+        "type": "triangle",
+        "color": "#82806f",
+        "size": 5,
+        "positionX": 74,
+        "positionY": 157
+    },
+    {
+        "name": "BEL",
+        "type": "square",
+        "color": "#54a0fb",
+        "size": 9,
+        "positionX": 202,
+        "positionY": 354
+    },
+    {
+        "name": "PON",
+        "type": "circle",
+        "color": "#0f2192",
+        "size": 9,
+        "positionX": 477,
+        "positionY": 385
+    },
+    {
+        "name": "YTR",
+        "type": "square",
+        "color": "#53746d",
+        "size": 6,
+        "positionX": 6,
+        "positionY": 745
+    },
+    {
+        "name": "MCS",
+        "type": "triangle",
+        "color": "#4cb15f",
+        "size": 8,
+        "positionX": 694,
+        "positionY": 731
+    },
+    {
+        "name": "ACA",
+        "type": "triangle",
+        "color": "#b96f43",
+        "size": 13,
+        "positionX": 66,
+        "positionY": 416
+    },
+    {
+        "name": "ORF",
+        "type": "circle",
+        "color": "#e6d573",
+        "size": 15,
+        "positionX": 337,
+        "positionY": 370
+    },
+    {
+        "name": "KWJ",
+        "type": "circle",
+        "color": "#ee70d4",
+        "size": 6,
+        "positionX": 577,
+        "positionY": 696
+    },
+    {
+        "name": "KHU",
+        "type": "square",
+        "color": "#5e7758",
+        "size": 9,
+        "positionX": 136,
+        "positionY": 390
+    },
+    {
+        "name": "DPK",
+        "type": "square",
+        "color": "#7c47ee",
+        "size": 14,
+        "positionX": 394,
+        "positionY": 20
+    },
+    {
+        "name": "CVR",
+        "type": "square",
+        "color": "#427962",
+        "size": 11,
+        "positionX": 58,
+        "positionY": 374
+    },
+    {
+        "name": "ICC",
+        "type": "circle",
+        "color": "#5e8211",
+        "size": 12,
+        "positionX": 453,
+        "positionY": 48
+    },
+    {
+        "name": "OVL",
+        "type": "square",
+        "color": "#e4683f",
+        "size": 11,
+        "positionX": 218,
+        "positionY": 755
+    },
+    {
+        "name": "TJK",
+        "type": "triangle",
+        "color": "#f782db",
+        "size": 7,
+        "positionX": 368,
+        "positionY": 575
+    },
+    {
+        "name": "CFO",
+        "type": "square",
+        "color": "#c3dac7",
+        "size": 12,
+        "positionX": 593,
+        "positionY": 739
+    },
+    {
+        "name": "SFA",
+        "type": "circle",
+        "color": "#e807df",
+        "size": 11,
+        "positionX": 26,
+        "positionY": 109
+    },
+    {
+        "name": "GCA",
+        "type": "circle",
+        "color": "#db048a",
+        "size": 6,
+        "positionX": 12,
+        "positionY": 596
+    },
+    {
+        "name": "DSG",
+        "type": "circle",
+        "color": "#4fb982",
+        "size": 8,
+        "positionX": 338,
+        "positionY": 737
+    },
+    {
+        "name": "ZBE",
+        "type": "triangle",
+        "color": "#ec54b4",
+        "size": 12,
+        "positionX": 189,
+        "positionY": 476
+    },
+    {
+        "name": "DIM",
+        "type": "square",
+        "color": "#244d4d",
+        "size": 15,
+        "positionX": 358,
+        "positionY": 454
+    },
+    {
+        "name": "RGS",
+        "type": "square",
+        "color": "#98890f",
+        "size": 13,
+        "positionX": 86,
+        "positionY": 409
+    },
+    {
+        "name": "RIM",
+        "type": "square",
+        "color": "#17f2ad",
+        "size": 12,
+        "positionX": 567,
+        "positionY": 471
+    },
+    {
+        "name": "WTB",
+        "type": "square",
+        "color": "#730fd9",
+        "size": 8,
+        "positionX": 68,
+        "positionY": 195
+    },
+    {
+        "name": "YHO",
+        "type": "circle",
+        "color": "#fb4862",
+        "size": 14,
+        "positionX": 397,
+        "positionY": 794
+    },
+    {
+        "name": "PYB",
+        "type": "triangle",
+        "color": "#346550",
+        "size": 10,
+        "positionX": 401,
+        "positionY": 654
+    },
+    {
+        "name": "BFD",
+        "type": "square",
+        "color": "#6a5578",
+        "size": 11,
+        "positionX": 464,
+        "positionY": 683
+    },
+    {
+        "name": "PKC",
+        "type": "triangle",
+        "color": "#548a8b",
+        "size": 12,
+        "positionX": 130,
+        "positionY": 402
+    },
+    {
+        "name": "MTQ",
+        "type": "square",
+        "color": "#d6df3d",
+        "size": 8,
+        "positionX": 652,
+        "positionY": 679
+    },
+    {
+        "name": "CTZ",
+        "type": "square",
+        "color": "#2a9626",
+        "size": 11,
+        "positionX": 62,
+        "positionY": 178
+    },
+    {
+        "name": "MGY",
+        "type": "triangle",
+        "color": "#f1cb57",
+        "size": 6,
+        "positionX": 668,
+        "positionY": 552
+    },
+    {
+        "name": "CPI",
+        "type": "square",
+        "color": "#634eda",
+        "size": 7,
+        "positionX": 659,
+        "positionY": 565
+    },
+    {
+        "name": "QND",
+        "type": "triangle",
+        "color": "#7ceb2f",
+        "size": 11,
+        "positionX": 14,
+        "positionY": 353
+    },
+    {
+        "name": "PRK",
+        "type": "triangle",
+        "color": "#d826c6",
+        "size": 10,
+        "positionX": 358,
+        "positionY": 229
+    },
+    {
+        "name": "PGM",
+        "type": "square",
+        "color": "#83ccc5",
+        "size": 12,
+        "positionX": 554,
+        "positionY": 155
+    },
+    {
+        "name": "KLC",
+        "type": "triangle",
+        "color": "#771f31",
+        "size": 7,
+        "positionX": 68,
+        "positionY": 596
+    },
+    {
+        "name": "ABB",
+        "type": "square",
+        "color": "#280f41",
+        "size": 10,
+        "positionX": 156,
+        "positionY": 485
+    },
+    {
+        "name": "ORB",
+        "type": "triangle",
+        "color": "#fa481b",
+        "size": 6,
+        "positionX": 274,
+        "positionY": 157
+    },
+    {
+        "name": "AVL",
+        "type": "triangle",
+        "color": "#156696",
+        "size": 11,
+        "positionX": 332,
+        "positionY": 546
+    },
+    {
+        "name": "CJT",
+        "type": "circle",
+        "color": "#c7161e",
+        "size": 12,
+        "positionX": 408,
+        "positionY": 185
+    },
+    {
+        "name": "OHI",
+        "type": "square",
+        "color": "#c95bf8",
+        "size": 5,
+        "positionX": 603,
+        "positionY": 14
+    },
+    {
+        "name": "QHU",
+        "type": "square",
+        "color": "#cf8881",
+        "size": 5,
+        "positionX": 14,
+        "positionY": 699
+    },
+    {
+        "name": "SJB",
+        "type": "circle",
+        "color": "#4f38a5",
+        "size": 5,
+        "positionX": 269,
+        "positionY": 36
+    },
+    {
+        "name": "DAS",
+        "type": "square",
+        "color": "#4e55d0",
+        "size": 12,
+        "positionX": 199,
+        "positionY": 229
+    },
+    {
+        "name": "LIH",
+        "type": "square",
+        "color": "#258dc0",
+        "size": 13,
+        "positionX": 788,
+        "positionY": 267
+    },
+    {
+        "name": "DJM",
+        "type": "triangle",
+        "color": "#07f702",
+        "size": 10,
+        "positionX": 5,
+        "positionY": 72
+    },
+    {
+        "name": "RKZ",
+        "type": "triangle",
+        "color": "#f0be32",
+        "size": 15,
+        "positionX": 291,
+        "positionY": 747
+    },
+    {
+        "name": "LDB",
+        "type": "circle",
+        "color": "#f881eb",
+        "size": 9,
+        "positionX": 742,
+        "positionY": 91
+    },
+    {
+        "name": "MRE",
+        "type": "triangle",
+        "color": "#fd810f",
+        "size": 15,
+        "positionX": 724,
+        "positionY": 795
+    },
+    {
+        "name": "KIP",
+        "type": "triangle",
+        "color": "#93a788",
+        "size": 7,
+        "positionX": 619,
+        "positionY": 4
+    },
+    {
+        "name": "AXP",
+        "type": "square",
+        "color": "#ee3432",
+        "size": 11,
+        "positionX": 640,
+        "positionY": 593
+    },
+    {
+        "name": "HSK",
+        "type": "circle",
+        "color": "#0bf929",
+        "size": 10,
+        "positionX": 267,
+        "positionY": 512
+    },
+    {
+        "name": "UNU",
+        "type": "circle",
+        "color": "#d1e697",
+        "size": 6,
+        "positionX": 741,
+        "positionY": 173
+    },
+    {
+        "name": "YET",
+        "type": "triangle",
+        "color": "#6f10c1",
+        "size": 10,
+        "positionX": 385,
+        "positionY": 61
+    },
+    {
+        "name": "BKS",
+        "type": "square",
+        "color": "#1b5150",
+        "size": 10,
+        "positionX": 269,
+        "positionY": 409
+    },
+    {
+        "name": "HOQ",
+        "type": "circle",
+        "color": "#08e235",
+        "size": 8,
+        "positionX": 111,
+        "positionY": 96
+    },
+    {
+        "name": "INW",
+        "type": "square",
+        "color": "#ea9043",
+        "size": 9,
+        "positionX": 748,
+        "positionY": 357
+    },
+    {
+        "name": "QRR",
+        "type": "square",
+        "color": "#3f6e19",
+        "size": 9,
+        "positionX": 174,
+        "positionY": 540
+    },
+    {
+        "name": "PUC",
+        "type": "square",
+        "color": "#e41687",
+        "size": 6,
+        "positionX": 361,
+        "positionY": 81
+    },
+    {
+        "name": "MMO",
+        "type": "triangle",
+        "color": "#f1ddbf",
+        "size": 10,
+        "positionX": 348,
+        "positionY": 538
+    },
+    {
+        "name": "CJL",
+        "type": "triangle",
+        "color": "#17200c",
+        "size": 6,
+        "positionX": 7,
+        "positionY": 520
+    },
+    {
+        "name": "MFT",
+        "type": "circle",
+        "color": "#3eff81",
+        "size": 12,
+        "positionX": 104,
+        "positionY": 483
+    },
+    {
+        "name": "GRZ",
+        "type": "circle",
+        "color": "#395b8c",
+        "size": 15,
+        "positionX": 166,
+        "positionY": 714
+    },
+    {
+        "name": "WYN",
+        "type": "square",
+        "color": "#9725b9",
+        "size": 10,
+        "positionX": 258,
+        "positionY": 302
+    },
+    {
+        "name": "FDA",
+        "type": "circle",
+        "color": "#96f7e0",
+        "size": 13,
+        "positionX": 391,
+        "positionY": 461
+    },
+    {
+        "name": "LUK",
+        "type": "square",
+        "color": "#d08500",
+        "size": 15,
+        "positionX": 644,
+        "positionY": 54
+    },
+    {
+        "name": "DRU",
+        "type": "triangle",
+        "color": "#1a846f",
+        "size": 15,
+        "positionX": 457,
+        "positionY": 367
+    },
+    {
+        "name": "KBH",
+        "type": "square",
+        "color": "#2417dc",
+        "size": 9,
+        "positionX": 432,
+        "positionY": 73
+    },
+    {
+        "name": "BYJ",
+        "type": "triangle",
+        "color": "#105494",
+        "size": 15,
+        "positionX": 468,
+        "positionY": 51
+    },
+    {
+        "name": "NNT",
+        "type": "triangle",
+        "color": "#61e982",
+        "size": 13,
+        "positionX": 788,
+        "positionY": 763
+    },
+    {
+        "name": "ZAO",
+        "type": "circle",
+        "color": "#07ab4c",
+        "size": 13,
+        "positionX": 90,
+        "positionY": 691
+    },
+    {
+        "name": "TIO",
+        "type": "circle",
+        "color": "#0e6635",
+        "size": 11,
+        "positionX": 3,
+        "positionY": 780
+    },
+    {
+        "name": "YNX",
+        "type": "circle",
+        "color": "#d415ef",
+        "size": 9,
+        "positionX": 704,
+        "positionY": 494
+    },
+    {
+        "name": "ROT",
+        "type": "circle",
+        "color": "#210575",
+        "size": 10,
+        "positionX": 591,
+        "positionY": 386
+    },
+    {
+        "name": "YKY",
+        "type": "circle",
+        "color": "#a65600",
+        "size": 14,
+        "positionX": 666,
+        "positionY": 397
+    },
+    {
+        "name": "BZX",
+        "type": "triangle",
+        "color": "#b831f0",
+        "size": 12,
+        "positionX": 363,
+        "positionY": 776
+    },
+    {
+        "name": "VDH",
+        "type": "circle",
+        "color": "#7b9d85",
+        "size": 7,
+        "positionX": 176,
+        "positionY": 326
+    },
+    {
+        "name": "YGA",
+        "type": "circle",
+        "color": "#25c0b4",
+        "size": 7,
+        "positionX": 731,
+        "positionY": 22
+    },
+    {
+        "name": "BLT",
+        "type": "triangle",
+        "color": "#4c3360",
+        "size": 14,
+        "positionX": 539,
+        "positionY": 203
+    },
+    {
+        "name": "BKK",
+        "type": "circle",
+        "color": "#ce7edf",
+        "size": 9,
+        "positionX": 117,
+        "positionY": 446
+    },
+    {
+        "name": "GMO",
+        "type": "circle",
+        "color": "#ba850c",
+        "size": 11,
+        "positionX": 457,
+        "positionY": 513
+    },
+    {
+        "name": "SSD",
+        "type": "square",
+        "color": "#e65fa6",
+        "size": 11,
+        "positionX": 143,
+        "positionY": 644
+    },
+    {
+        "name": "DYG",
+        "type": "triangle",
+        "color": "#6e79af",
+        "size": 9,
+        "positionX": 61,
+        "positionY": 389
+    },
+    {
+        "name": "RKH",
+        "type": "circle",
+        "color": "#b98af6",
+        "size": 5,
+        "positionX": 202,
+        "positionY": 640
+    },
+    {
+        "name": "MQZ",
+        "type": "square",
+        "color": "#f14310",
+        "size": 12,
+        "positionX": 17,
+        "positionY": 429
+    },
+    {
+        "name": "BOY",
+        "type": "circle",
+        "color": "#a70d4a",
+        "size": 8,
+        "positionX": 653,
+        "positionY": 272
+    },
+    {
+        "name": "WEF",
+        "type": "circle",
+        "color": "#b9cc84",
+        "size": 8,
+        "positionX": 554,
+        "positionY": 10
+    },
+    {
+        "name": "PIP",
+        "type": "square",
+        "color": "#6025a6",
+        "size": 15,
+        "positionX": 1,
+        "positionY": 414
+    },
+    {
+        "name": "KWB",
+        "type": "circle",
+        "color": "#9e2123",
+        "size": 14,
+        "positionX": 690,
+        "positionY": 532
+    },
+    {
+        "name": "HKS",
+        "type": "triangle",
+        "color": "#1fdfa0",
+        "size": 12,
+        "positionX": 64,
+        "positionY": 76
+    },
+    {
+        "name": "ZTB",
+        "type": "triangle",
+        "color": "#bd3c49",
+        "size": 6,
+        "positionX": 121,
+        "positionY": 192
+    },
+    {
+        "name": "YZY",
+        "type": "circle",
+        "color": "#3c2f9e",
+        "size": 9,
+        "positionX": 704,
+        "positionY": 724
+    },
+    {
+        "name": "SFM",
+        "type": "square",
+        "color": "#3f1640",
+        "size": 7,
+        "positionX": 742,
+        "positionY": 773
+    },
+    {
+        "name": "YVB",
+        "type": "circle",
+        "color": "#5bf666",
+        "size": 14,
+        "positionX": 280,
+        "positionY": 711
+    },
+    {
+        "name": "TOA",
+        "type": "square",
+        "color": "#cb30bd",
+        "size": 7,
+        "positionX": 764,
+        "positionY": 746
+    },
+    {
+        "name": "KHT",
+        "type": "triangle",
+        "color": "#2fcdb5",
+        "size": 8,
+        "positionX": 271,
+        "positionY": 691
+    },
+    {
+        "name": "VEE",
+        "type": "triangle",
+        "color": "#cdf1b4",
+        "size": 10,
+        "positionX": 709,
+        "positionY": 226
+    },
+    {
+        "name": "GCT",
+        "type": "circle",
+        "color": "#c2d76c",
+        "size": 8,
+        "positionX": 769,
+        "positionY": 355
+    },
+    {
+        "name": "COK",
+        "type": "triangle",
+        "color": "#c9812b",
+        "size": 9,
+        "positionX": 46,
+        "positionY": 564
+    },
+    {
+        "name": "STR",
+        "type": "triangle",
+        "color": "#a56aab",
+        "size": 14,
+        "positionX": 665,
+        "positionY": 458
+    },
+    {
+        "name": "OZA",
+        "type": "triangle",
+        "color": "#5649d4",
+        "size": 10,
+        "positionX": 675,
+        "positionY": 409
+    },
+    {
+        "name": "YTL",
+        "type": "square",
+        "color": "#b31676",
+        "size": 9,
+        "positionX": 160,
+        "positionY": 352
+    },
+    {
+        "name": "CHY",
+        "type": "square",
+        "color": "#aefc9f",
+        "size": 7,
+        "positionX": 4,
+        "positionY": 138
+    },
+    {
+        "name": "BOB",
+        "type": "circle",
+        "color": "#645bec",
+        "size": 10,
+        "positionX": 777,
+        "positionY": 680
+    },
+    {
+        "name": "SRU",
+        "type": "square",
+        "color": "#0769a9",
+        "size": 12,
+        "positionX": 540,
+        "positionY": 736
+    },
+    {
+        "name": "MMI",
+        "type": "triangle",
+        "color": "#d0aec6",
+        "size": 9,
+        "positionX": 649,
+        "positionY": 755
+    },
+    {
+        "name": "WPB",
+        "type": "circle",
+        "color": "#1d0913",
+        "size": 11,
+        "positionX": 77,
+        "positionY": 145
+    },
+    {
+        "name": "LOZ",
+        "type": "circle",
+        "color": "#5a8465",
+        "size": 11,
+        "positionX": 697,
+        "positionY": 43
+    },
+    {
+        "name": "CIZ",
+        "type": "triangle",
+        "color": "#536561",
+        "size": 11,
+        "positionX": 302,
+        "positionY": 403
+    },
+    {
+        "name": "SVD",
+        "type": "triangle",
+        "color": "#8d3cd6",
+        "size": 15,
+        "positionX": 672,
+        "positionY": 413
+    },
+    {
+        "name": "KPF",
+        "type": "triangle",
+        "color": "#26c939",
+        "size": 11,
+        "positionX": 62,
+        "positionY": 139
+    },
+    {
+        "name": "TCB",
+        "type": "triangle",
+        "color": "#aae0f5",
+        "size": 9,
+        "positionX": 745,
+        "positionY": 608
+    },
+    {
+        "name": "LNH",
+        "type": "triangle",
+        "color": "#c2ec12",
+        "size": 11,
+        "positionX": 447,
+        "positionY": 598
+    },
+    {
+        "name": "SMJ",
+        "type": "triangle",
+        "color": "#f5b747",
+        "size": 8,
+        "positionX": 220,
+        "positionY": 263
+    },
+    {
+        "name": "PIN",
+        "type": "square",
+        "color": "#49e468",
+        "size": 5,
+        "positionX": 707,
+        "positionY": 724
+    },
+    {
+        "name": "UZU",
+        "type": "square",
+        "color": "#c32b7c",
+        "size": 6,
+        "positionX": 755,
+        "positionY": 433
+    },
+    {
+        "name": "BCQ",
+        "type": "circle",
+        "color": "#28818c",
+        "size": 13,
+        "positionX": 585,
+        "positionY": 15
+    },
+    {
+        "name": "MVP",
+        "type": "circle",
+        "color": "#12fcba",
+        "size": 7,
+        "positionX": 427,
+        "positionY": 257
+    },
+    {
+        "name": "OTL",
+        "type": "triangle",
+        "color": "#cbf1d0",
+        "size": 9,
+        "positionX": 18,
+        "positionY": 644
+    },
+    {
+        "name": "CUP",
+        "type": "square",
+        "color": "#d6b27a",
+        "size": 6,
+        "positionX": 199,
+        "positionY": 322
+    },
+    {
+        "name": "NYW",
+        "type": "square",
+        "color": "#3e1abc",
+        "size": 6,
+        "positionX": 92,
+        "positionY": 294
+    },
+    {
+        "name": "ELC",
+        "type": "triangle",
+        "color": "#e40a58",
+        "size": 6,
+        "positionX": 442,
+        "positionY": 787
+    },
+    {
+        "name": "ACO",
+        "type": "circle",
+        "color": "#982e3b",
+        "size": 14,
+        "positionX": 678,
+        "positionY": 684
+    },
+    {
+        "name": "ESH",
+        "type": "triangle",
+        "color": "#722f5d",
+        "size": 10,
+        "positionX": 37,
+        "positionY": 262
+    },
+    {
+        "name": "ZTB",
+        "type": "square",
+        "color": "#b5ad6f",
+        "size": 8,
+        "positionX": 91,
+        "positionY": 247
+    },
+    {
+        "name": "OSR",
+        "type": "circle",
+        "color": "#3f083f",
+        "size": 10,
+        "positionX": 128,
+        "positionY": 213
+    },
+    {
+        "name": "YOW",
+        "type": "square",
+        "color": "#bc1db9",
+        "size": 15,
+        "positionX": 560,
+        "positionY": 535
+    },
+    {
+        "name": "MYG",
+        "type": "triangle",
+        "color": "#b30fba",
+        "size": 9,
+        "positionX": 250,
+        "positionY": 401
+    },
+    {
+        "name": "UMC",
+        "type": "square",
+        "color": "#ff7d0d",
+        "size": 9,
+        "positionX": 300,
+        "positionY": 760
+    },
+    {
+        "name": "HTN",
+        "type": "circle",
+        "color": "#1c692c",
+        "size": 14,
+        "positionX": 486,
+        "positionY": 392
+    },
+    {
+        "name": "ULM",
+        "type": "triangle",
+        "color": "#3c9310",
+        "size": 10,
+        "positionX": 453,
+        "positionY": 239
+    },
+    {
+        "name": "STL",
+        "type": "triangle",
+        "color": "#eb2d20",
+        "size": 13,
+        "positionX": 294,
+        "positionY": 796
+    },
+    {
+        "name": "YQS",
+        "type": "square",
+        "color": "#af2e2d",
+        "size": 9,
+        "positionX": 325,
+        "positionY": 173
+    },
+    {
+        "name": "AMM",
+        "type": "square",
+        "color": "#dfddc0",
+        "size": 9,
+        "positionX": 231,
+        "positionY": 764
+    },
+    {
+        "name": "ELK",
+        "type": "triangle",
+        "color": "#a18f27",
+        "size": 8,
+        "positionX": 427,
+        "positionY": 233
+    },
+    {
+        "name": "DAO",
+        "type": "circle",
+        "color": "#c47928",
+        "size": 9,
+        "positionX": 276,
+        "positionY": 370
+    },
+    {
+        "name": "WRI",
+        "type": "triangle",
+        "color": "#b9edad",
+        "size": 7,
+        "positionX": 727,
+        "positionY": 113
+    },
+    {
+        "name": "FRE",
+        "type": "circle",
+        "color": "#f3211b",
+        "size": 6,
+        "positionX": 190,
+        "positionY": 783
+    },
+    {
+        "name": "KGT",
+        "type": "square",
+        "color": "#614f2d",
+        "size": 6,
+        "positionX": 438,
+        "positionY": 604
+    },
+    {
+        "name": "GFO",
+        "type": "square",
+        "color": "#5199be",
+        "size": 12,
+        "positionX": 350,
+        "positionY": 48
+    },
+    {
+        "name": "RGS",
+        "type": "triangle",
+        "color": "#5a6670",
+        "size": 15,
+        "positionX": 441,
+        "positionY": 332
+    },
+    {
+        "name": "CGZ",
+        "type": "triangle",
+        "color": "#0e2c33",
+        "size": 14,
+        "positionX": 734,
+        "positionY": 700
+    },
+    {
+        "name": "CIP",
+        "type": "circle",
+        "color": "#2a22f8",
+        "size": 9,
+        "positionX": 93,
+        "positionY": 312
+    },
+    {
+        "name": "MOO",
+        "type": "square",
+        "color": "#696d95",
+        "size": 6,
+        "positionX": 357,
+        "positionY": 762
+    },
+    {
+        "name": "CLD",
+        "type": "triangle",
+        "color": "#73e213",
+        "size": 15,
+        "positionX": 4,
+        "positionY": 567
+    },
+    {
+        "name": "LZC",
+        "type": "circle",
+        "color": "#7975e3",
+        "size": 7,
+        "positionX": 501,
+        "positionY": 318
+    },
+    {
+        "name": "IBL",
+        "type": "circle",
+        "color": "#fcb807",
+        "size": 10,
+        "positionX": 663,
+        "positionY": 411
+    },
+    {
+        "name": "CMG",
+        "type": "circle",
+        "color": "#5eba93",
+        "size": 13,
+        "positionX": 741,
+        "positionY": 172
+    },
+    {
+        "name": "UPV",
+        "type": "circle",
+        "color": "#3b6906",
+        "size": 14,
+        "positionX": 423,
+        "positionY": 488
+    },
+    {
+        "name": "BYL",
+        "type": "triangle",
+        "color": "#b5fd3e",
+        "size": 7,
+        "positionX": 395,
+        "positionY": 363
+    },
+    {
+        "name": "OMC",
+        "type": "triangle",
+        "color": "#3ef544",
+        "size": 9,
+        "positionX": 165,
+        "positionY": 486
+    },
+    {
+        "name": "AQB",
+        "type": "triangle",
+        "color": "#cbb1e6",
+        "size": 13,
+        "positionX": 321,
+        "positionY": 266
+    },
+    {
+        "name": "IND",
+        "type": "square",
+        "color": "#fd6523",
+        "size": 10,
+        "positionX": 414,
+        "positionY": 307
+    },
+    {
+        "name": "GON",
+        "type": "square",
+        "color": "#cae66c",
+        "size": 11,
+        "positionX": 130,
+        "positionY": 161
+    },
+    {
+        "name": "IZO",
+        "type": "square",
+        "color": "#a48643",
+        "size": 10,
+        "positionX": 575,
+        "positionY": 151
+    },
+    {
+        "name": "CUV",
+        "type": "square",
+        "color": "#797b85",
+        "size": 15,
+        "positionX": 170,
+        "positionY": 124
+    },
+    {
+        "name": "SRA",
+        "type": "triangle",
+        "color": "#7821c2",
+        "size": 9,
+        "positionX": 110,
+        "positionY": 379
+    },
+    {
+        "name": "HTM",
+        "type": "triangle",
+        "color": "#c7f746",
+        "size": 13,
+        "positionX": 415,
+        "positionY": 144
+    },
+    {
+        "name": "UAH",
+        "type": "triangle",
+        "color": "#d5dade",
+        "size": 12,
+        "positionX": 513,
+        "positionY": 372
+    },
+    {
+        "name": "BDA",
+        "type": "square",
+        "color": "#17b9ba",
+        "size": 6,
+        "positionX": 416,
+        "positionY": 515
+    },
+    {
+        "name": "THW",
+        "type": "circle",
+        "color": "#c51b57",
+        "size": 13,
+        "positionX": 245,
+        "positionY": 78
+    },
+    {
+        "name": "HSM",
+        "type": "circle",
+        "color": "#c29f79",
+        "size": 6,
+        "positionX": 652,
+        "positionY": 139
+    },
+    {
+        "name": "EDQ",
+        "type": "triangle",
+        "color": "#c69e04",
+        "size": 9,
+        "positionX": 320,
+        "positionY": 457
+    },
+    {
+        "name": "NCE",
+        "type": "circle",
+        "color": "#07565c",
+        "size": 14,
+        "positionX": 613,
+        "positionY": 518
+    },
+    {
+        "name": "PBI",
+        "type": "circle",
+        "color": "#f22169",
+        "size": 11,
+        "positionX": 725,
+        "positionY": 486
+    },
+    {
+        "name": "KPC",
+        "type": "circle",
+        "color": "#0ed64f",
+        "size": 6,
+        "positionX": 359,
+        "positionY": 138
+    },
+    {
+        "name": "DBS",
+        "type": "triangle",
+        "color": "#899bb8",
+        "size": 10,
+        "positionX": 716,
+        "positionY": 742
+    },
+    {
+        "name": "PVE",
+        "type": "square",
+        "color": "#300ce3",
+        "size": 10,
+        "positionX": 670,
+        "positionY": 222
+    },
+    {
+        "name": "ILU",
+        "type": "triangle",
+        "color": "#da810b",
+        "size": 10,
+        "positionX": 6,
+        "positionY": 739
+    },
+    {
+        "name": "YFS",
+        "type": "circle",
+        "color": "#664f50",
+        "size": 15,
+        "positionX": 24,
+        "positionY": 229
+    },
+    {
+        "name": "ICA",
+        "type": "square",
+        "color": "#e3aea8",
+        "size": 8,
+        "positionX": 30,
+        "positionY": 269
+    },
+    {
+        "name": "WDS",
+        "type": "triangle",
+        "color": "#f01ccf",
+        "size": 7,
+        "positionX": 126,
+        "positionY": 363
+    },
+    {
+        "name": "PRU",
+        "type": "circle",
+        "color": "#291970",
+        "size": 6,
+        "positionX": 186,
+        "positionY": 426
+    },
+    {
+        "name": "EAA",
+        "type": "circle",
+        "color": "#3391e3",
+        "size": 12,
+        "positionX": 481,
+        "positionY": 326
+    },
+    {
+        "name": "ASE",
+        "type": "square",
+        "color": "#58daad",
+        "size": 6,
+        "positionX": 318,
+        "positionY": 286
+    },
+    {
+        "name": "PDL",
+        "type": "circle",
+        "color": "#fae997",
+        "size": 6,
+        "positionX": 262,
+        "positionY": 242
+    },
+    {
+        "name": "UNI",
+        "type": "square",
+        "color": "#57940b",
+        "size": 5,
+        "positionX": 493,
+        "positionY": 582
+    },
+    {
+        "name": "LCD",
+        "type": "triangle",
+        "color": "#b4210b",
+        "size": 12,
+        "positionX": 170,
+        "positionY": 473
+    },
+    {
+        "name": "BKG",
+        "type": "triangle",
+        "color": "#ccf6ca",
+        "size": 14,
+        "positionX": 126,
+        "positionY": 793
+    },
+    {
+        "name": "CNW",
+        "type": "triangle",
+        "color": "#a25240",
+        "size": 9,
+        "positionX": 341,
+        "positionY": 289
+    },
+    {
+        "name": "RGH",
+        "type": "triangle",
+        "color": "#6738d7",
+        "size": 10,
+        "positionX": 770,
+        "positionY": 294
+    },
+    {
+        "name": "CCU",
+        "type": "triangle",
+        "color": "#bfc7ff",
+        "size": 14,
+        "positionX": 767,
+        "positionY": 271
+    },
+    {
+        "name": "OBF",
+        "type": "square",
+        "color": "#b201d1",
+        "size": 11,
+        "positionX": 90,
+        "positionY": 331
+    },
+    {
+        "name": "ARK",
+        "type": "triangle",
+        "color": "#af2fc4",
+        "size": 12,
+        "positionX": 255,
+        "positionY": 212
+    },
+    {
+        "name": "MQL",
+        "type": "square",
+        "color": "#57b20a",
+        "size": 6,
+        "positionX": 739,
+        "positionY": 304
+    },
+    {
+        "name": "LNB",
+        "type": "square",
+        "color": "#c2120f",
+        "size": 7,
+        "positionX": 503,
+        "positionY": 135
+    },
+    {
+        "name": "VDZ",
+        "type": "triangle",
+        "color": "#11d3bb",
+        "size": 14,
+        "positionX": 716,
+        "positionY": 723
+    },
+    {
+        "name": "PRH",
+        "type": "triangle",
+        "color": "#c490c9",
+        "size": 11,
+        "positionX": 782,
+        "positionY": 312
+    },
+    {
+        "name": "LNM",
+        "type": "triangle",
+        "color": "#09ef74",
+        "size": 9,
+        "positionX": 160,
+        "positionY": 644
+    },
+    {
+        "name": "AOI",
+        "type": "square",
+        "color": "#483f64",
+        "size": 11,
+        "positionX": 458,
+        "positionY": 274
+    },
+    {
+        "name": "CRV",
+        "type": "triangle",
+        "color": "#a53488",
+        "size": 5,
+        "positionX": 757,
+        "positionY": 40
+    },
+    {
+        "name": "XZA",
+        "type": "circle",
+        "color": "#c23c6e",
+        "size": 10,
+        "positionX": 666,
+        "positionY": 291
+    },
+    {
+        "name": "LGA",
+        "type": "circle",
+        "color": "#32aa1d",
+        "size": 5,
+        "positionX": 519,
+        "positionY": 169
+    },
+    {
+        "name": "EFL",
+        "type": "circle",
+        "color": "#cb6df8",
+        "size": 12,
+        "positionX": 662,
+        "positionY": 147
+    },
+    {
+        "name": "PBH",
+        "type": "circle",
+        "color": "#5b506d",
+        "size": 6,
+        "positionX": 43,
+        "positionY": 394
+    },
+    {
+        "name": "AXP",
+        "type": "square",
+        "color": "#981968",
+        "size": 15,
+        "positionX": 34,
+        "positionY": 214
+    },
+    {
+        "name": "SWA",
+        "type": "square",
+        "color": "#e89330",
+        "size": 8,
+        "positionX": 234,
+        "positionY": 317
+    },
+    {
+        "name": "TOM",
+        "type": "triangle",
+        "color": "#05c003",
+        "size": 7,
+        "positionX": 623,
+        "positionY": 418
+    },
+    {
+        "name": "TRO",
+        "type": "square",
+        "color": "#662454",
+        "size": 14,
+        "positionX": 118,
+        "positionY": 703
+    },
+    {
+        "name": "WWK",
+        "type": "circle",
+        "color": "#78926f",
+        "size": 5,
+        "positionX": 500,
+        "positionY": 592
+    },
+    {
+        "name": "GIU",
+        "type": "square",
+        "color": "#8d187f",
+        "size": 10,
+        "positionX": 665,
+        "positionY": 436
+    },
+    {
+        "name": "STY",
+        "type": "triangle",
+        "color": "#013375",
+        "size": 9,
+        "positionX": 472,
+        "positionY": 107
+    },
+    {
+        "name": "BEP",
+        "type": "circle",
+        "color": "#64b04b",
+        "size": 10,
+        "positionX": 66,
+        "positionY": 595
+    },
+    {
+        "name": "MMV",
+        "type": "square",
+        "color": "#cff66e",
+        "size": 11,
+        "positionX": 320,
+        "positionY": 152
+    },
+    {
+        "name": "CMB",
+        "type": "circle",
+        "color": "#d423b3",
+        "size": 10,
+        "positionX": 126,
+        "positionY": 72
+    },
+    {
+        "name": "QGU",
+        "type": "square",
+        "color": "#9e535e",
+        "size": 10,
+        "positionX": 593,
+        "positionY": 770
+    },
+    {
+        "name": "HAD",
+        "type": "square",
+        "color": "#d72443",
+        "size": 9,
+        "positionX": 190,
+        "positionY": 45
+    },
+    {
+        "name": "COQ",
+        "type": "square",
+        "color": "#8c13ad",
+        "size": 11,
+        "positionX": 729,
+        "positionY": 638
+    },
+    {
+        "name": "YEO",
+        "type": "circle",
+        "color": "#6a7989",
+        "size": 5,
+        "positionX": 326,
+        "positionY": 603
+    },
+    {
+        "name": "HIO",
+        "type": "triangle",
+        "color": "#7e0ae6",
+        "size": 11,
+        "positionX": 97,
+        "positionY": 543
+    },
+    {
+        "name": "JMS",
+        "type": "triangle",
+        "color": "#a584d6",
+        "size": 9,
+        "positionX": 471,
+        "positionY": 197
+    },
+    {
+        "name": "LWC",
+        "type": "circle",
+        "color": "#70d003",
+        "size": 15,
+        "positionX": 202,
+        "positionY": 481
+    },
+    {
+        "name": "CAU",
+        "type": "circle",
+        "color": "#4031a0",
+        "size": 13,
+        "positionX": 432,
+        "positionY": 580
+    },
+    {
+        "name": "NNT",
+        "type": "triangle",
+        "color": "#44a6f3",
+        "size": 12,
+        "positionX": 3,
+        "positionY": 64
+    },
+    {
+        "name": "NYK",
+        "type": "triangle",
+        "color": "#231ae7",
+        "size": 11,
+        "positionX": 609,
+        "positionY": 370
+    },
+    {
+        "name": "CLQ",
+        "type": "square",
+        "color": "#e78bc7",
+        "size": 7,
+        "positionX": 634,
+        "positionY": 262
+    },
+    {
+        "name": "CLL",
+        "type": "circle",
+        "color": "#0a4dd2",
+        "size": 13,
+        "positionX": 188,
+        "positionY": 110
+    },
+    {
+        "name": "CKD",
+        "type": "square",
+        "color": "#afe7c7",
+        "size": 6,
+        "positionX": 105,
+        "positionY": 777
+    },
+    {
+        "name": "COC",
+        "type": "square",
+        "color": "#83b815",
+        "size": 11,
+        "positionX": 255,
+        "positionY": 30
+    },
+    {
+        "name": "EDQ",
+        "type": "triangle",
+        "color": "#db997e",
+        "size": 9,
+        "positionX": 777,
+        "positionY": 429
+    },
+    {
+        "name": "ACT",
+        "type": "triangle",
+        "color": "#3d75d7",
+        "size": 5,
+        "positionX": 171,
+        "positionY": 624
+    },
+    {
+        "name": "AAP",
+        "type": "triangle",
+        "color": "#cb39b5",
+        "size": 15,
+        "positionX": 672,
+        "positionY": 570
+    },
+    {
+        "name": "BVA",
+        "type": "circle",
+        "color": "#2b1d5a",
+        "size": 9,
+        "positionX": 522,
+        "positionY": 710
+    },
+    {
+        "name": "VER",
+        "type": "triangle",
+        "color": "#4396fc",
+        "size": 9,
+        "positionX": 75,
+        "positionY": 622
+    },
+    {
+        "name": "LPU",
+        "type": "circle",
+        "color": "#3477c2",
+        "size": 5,
+        "positionX": 512,
+        "positionY": 573
+    },
+    {
+        "name": "YGB",
+        "type": "triangle",
+        "color": "#ba64b0",
+        "size": 14,
+        "positionX": 452,
+        "positionY": 788
+    },
+    {
+        "name": "ZTR",
+        "type": "square",
+        "color": "#7d38a4",
+        "size": 8,
+        "positionX": 89,
+        "positionY": 155
+    },
+    {
+        "name": "TCL",
+        "type": "square",
+        "color": "#7bfa36",
+        "size": 12,
+        "positionX": 477,
+        "positionY": 34
+    },
+    {
+        "name": "XMI",
+        "type": "circle",
+        "color": "#4bad49",
+        "size": 11,
+        "positionX": 271,
+        "positionY": 481
+    },
+    {
+        "name": "LEV",
+        "type": "circle",
+        "color": "#9d58c0",
+        "size": 11,
+        "positionX": 223,
+        "positionY": 152
+    },
+    {
+        "name": "BMY",
+        "type": "square",
+        "color": "#e189ba",
+        "size": 7,
+        "positionX": 445,
+        "positionY": 173
+    },
+    {
+        "name": "UKA",
+        "type": "circle",
+        "color": "#913ca4",
+        "size": 12,
+        "positionX": 48,
+        "positionY": 97
+    },
+    {
+        "name": "RMI",
+        "type": "square",
+        "color": "#5fc35c",
+        "size": 8,
+        "positionX": 402,
+        "positionY": 117
+    },
+    {
+        "name": "SKM",
+        "type": "square",
+        "color": "#3528c9",
+        "size": 6,
+        "positionX": 448,
+        "positionY": 175
+    },
+    {
+        "name": "MZH",
+        "type": "square",
+        "color": "#782344",
+        "size": 7,
+        "positionX": 710,
+        "positionY": 385
+    },
+    {
+        "name": "OSW",
+        "type": "triangle",
+        "color": "#98e8af",
+        "size": 15,
+        "positionX": 607,
+        "positionY": 200
+    },
+    {
+        "name": "HOP",
+        "type": "circle",
+        "color": "#979a89",
+        "size": 5,
+        "positionX": 502,
+        "positionY": 84
+    },
+    {
+        "name": "SPS",
+        "type": "triangle",
+        "color": "#2e92e0",
+        "size": 8,
+        "positionX": 288,
+        "positionY": 364
+    },
+    {
+        "name": "BBG",
+        "type": "circle",
+        "color": "#9fa9ed",
+        "size": 6,
+        "positionX": 503,
+        "positionY": 725
+    },
+    {
+        "name": "NMP",
+        "type": "square",
+        "color": "#5d7d42",
+        "size": 9,
+        "positionX": 661,
+        "positionY": 72
+    },
+    {
+        "name": "CQP",
+        "type": "circle",
+        "color": "#0dbfe7",
+        "size": 15,
+        "positionX": 628,
+        "positionY": 299
+    },
+    {
+        "name": "SYN",
+        "type": "square",
+        "color": "#b62a1a",
+        "size": 13,
+        "positionX": 49,
+        "positionY": 206
+    },
+    {
+        "name": "ELZ",
+        "type": "triangle",
+        "color": "#88b147",
+        "size": 7,
+        "positionX": 345,
+        "positionY": 377
+    },
+    {
+        "name": "FAG",
+        "type": "square",
+        "color": "#7b1df3",
+        "size": 15,
+        "positionX": 365,
+        "positionY": 762
+    },
+    {
+        "name": "YSA",
+        "type": "circle",
+        "color": "#dec5bb",
+        "size": 11,
+        "positionX": 623,
+        "positionY": 530
+    },
+    {
+        "name": "FWA",
+        "type": "circle",
+        "color": "#54ec31",
+        "size": 7,
+        "positionX": 432,
+        "positionY": 47
+    },
+    {
+        "name": "FEP",
+        "type": "square",
+        "color": "#ac8c31",
+        "size": 15,
+        "positionX": 315,
+        "positionY": 485
+    },
+    {
+        "name": "MTZ",
+        "type": "circle",
+        "color": "#5f8c2b",
+        "size": 5,
+        "positionX": 723,
+        "positionY": 175
+    },
+    {
+        "name": "YND",
+        "type": "square",
+        "color": "#4e6ff3",
+        "size": 15,
+        "positionX": 774,
+        "positionY": 764
+    },
+    {
+        "name": "CCI",
+        "type": "circle",
+        "color": "#99b310",
+        "size": 14,
+        "positionX": 382,
+        "positionY": 462
+    },
+    {
+        "name": "PGP",
+        "type": "triangle",
+        "color": "#dba257",
+        "size": 11,
+        "positionX": 61,
+        "positionY": 551
+    },
+    {
+        "name": "SGT",
+        "type": "triangle",
+        "color": "#142de6",
+        "size": 5,
+        "positionX": 642,
+        "positionY": 37
+    },
+    {
+        "name": "KOP",
+        "type": "triangle",
+        "color": "#c007a8",
+        "size": 9,
+        "positionX": 120,
+        "positionY": 445
+    },
+    {
+        "name": "SUD",
+        "type": "square",
+        "color": "#e9628d",
+        "size": 8,
+        "positionX": 371,
+        "positionY": 426
+    },
+    {
+        "name": "TZR",
+        "type": "circle",
+        "color": "#547f76",
+        "size": 11,
+        "positionX": 321,
+        "positionY": 400
+    },
+    {
+        "name": "API",
+        "type": "circle",
+        "color": "#671208",
+        "size": 7,
+        "positionX": 180,
+        "positionY": 588
+    },
+    {
+        "name": "HRM",
+        "type": "triangle",
+        "color": "#314e96",
+        "size": 6,
+        "positionX": 249,
+        "positionY": 472
+    },
+    {
+        "name": "KTX",
+        "type": "triangle",
+        "color": "#c07ef7",
+        "size": 11,
+        "positionX": 706,
+        "positionY": 469
+    },
+    {
+        "name": "PHD",
+        "type": "circle",
+        "color": "#8f6e80",
+        "size": 8,
+        "positionX": 252,
+        "positionY": 309
+    },
+    {
+        "name": "NAF",
+        "type": "square",
+        "color": "#d40958",
+        "size": 5,
+        "positionX": 777,
+        "positionY": 760
+    },
+    {
+        "name": "ERN",
+        "type": "circle",
+        "color": "#45e86f",
+        "size": 6,
+        "positionX": 467,
+        "positionY": 754
+    },
+    {
+        "name": "NKP",
+        "type": "square",
+        "color": "#f95ebd",
+        "size": 8,
+        "positionX": 480,
+        "positionY": 432
+    },
+    {
+        "name": "CFI",
+        "type": "square",
+        "color": "#88221e",
+        "size": 13,
+        "positionX": 518,
+        "positionY": 290
+    },
+    {
+        "name": "NCG",
+        "type": "square",
+        "color": "#981f26",
+        "size": 8,
+        "positionX": 130,
+        "positionY": 639
+    },
+    {
+        "name": "LBT",
+        "type": "triangle",
+        "color": "#7aaa62",
+        "size": 14,
+        "positionX": 527,
+        "positionY": 653
+    },
+    {
+        "name": "TBL",
+        "type": "circle",
+        "color": "#69940b",
+        "size": 10,
+        "positionX": 706,
+        "positionY": 478
+    },
+    {
+        "name": "ISB",
+        "type": "circle",
+        "color": "#22eeb7",
+        "size": 13,
+        "positionX": 319,
+        "positionY": 166
+    },
+    {
+        "name": "MKH",
+        "type": "triangle",
+        "color": "#35b225",
+        "size": 9,
+        "positionX": 26,
+        "positionY": 396
+    },
+    {
+        "name": "KLU",
+        "type": "square",
+        "color": "#2bb95e",
+        "size": 9,
+        "positionX": 372,
+        "positionY": 458
+    },
+    {
+        "name": "BDA",
+        "type": "square",
+        "color": "#ed9a82",
+        "size": 15,
+        "positionX": 491,
+        "positionY": 50
+    },
+    {
+        "name": "YDO",
+        "type": "triangle",
+        "color": "#5c2ac2",
+        "size": 7,
+        "positionX": 605,
+        "positionY": 649
+    },
+    {
+        "name": "SLJ",
+        "type": "circle",
+        "color": "#52b876",
+        "size": 15,
+        "positionX": 381,
+        "positionY": 96
+    },
+    {
+        "name": "LHE",
+        "type": "square",
+        "color": "#cf3840",
+        "size": 7,
+        "positionX": 266,
+        "positionY": 514
+    },
+    {
+        "name": "NRE",
+        "type": "triangle",
+        "color": "#b7eb89",
+        "size": 7,
+        "positionX": 796,
+        "positionY": 327
+    },
+    {
+        "name": "ELZ",
+        "type": "triangle",
+        "color": "#394957",
+        "size": 13,
+        "positionX": 533,
+        "positionY": 786
+    },
+    {
+        "name": "GFY",
+        "type": "triangle",
+        "color": "#d041e1",
+        "size": 11,
+        "positionX": 757,
+        "positionY": 251
+    },
+    {
+        "name": "GUM",
+        "type": "circle",
+        "color": "#1d431a",
+        "size": 6,
+        "positionX": 456,
+        "positionY": 111
+    },
+    {
+        "name": "RCT",
+        "type": "circle",
+        "color": "#6da5ff",
+        "size": 13,
+        "positionX": 762,
+        "positionY": 712
+    },
+    {
+        "name": "OBX",
+        "type": "circle",
+        "color": "#2ac213",
+        "size": 10,
+        "positionX": 592,
+        "positionY": 98
+    },
+    {
+        "name": "JIW",
+        "type": "triangle",
+        "color": "#2486f8",
+        "size": 6,
+        "positionX": 296,
+        "positionY": 529
+    },
+    {
+        "name": "KHV",
+        "type": "triangle",
+        "color": "#8ed6d0",
+        "size": 9,
+        "positionX": 426,
+        "positionY": 55
+    },
+    {
+        "name": "IRU",
+        "type": "triangle",
+        "color": "#332034",
+        "size": 8,
+        "positionX": 267,
+        "positionY": 34
+    },
+    {
+        "name": "LDW",
+        "type": "square",
+        "color": "#2d99bb",
+        "size": 7,
+        "positionX": 171,
+        "positionY": 605
+    },
+    {
+        "name": "JQA",
+        "type": "circle",
+        "color": "#1f79c5",
+        "size": 11,
+        "positionX": 335,
+        "positionY": 648
+    },
+    {
+        "name": "UGN",
+        "type": "triangle",
+        "color": "#98ff6e",
+        "size": 13,
+        "positionX": 126,
+        "positionY": 647
+    },
+    {
+        "name": "YCB",
+        "type": "triangle",
+        "color": "#e3f8e5",
+        "size": 5,
+        "positionX": 223,
+        "positionY": 367
+    },
+    {
+        "name": "BVL",
+        "type": "circle",
+        "color": "#9c96a1",
+        "size": 9,
+        "positionX": 503,
+        "positionY": 72
+    },
+    {
+        "name": "TKV",
+        "type": "triangle",
+        "color": "#52a570",
+        "size": 8,
+        "positionX": 791,
+        "positionY": 469
+    },
+    {
+        "name": "GHA",
+        "type": "square",
+        "color": "#aece33",
+        "size": 9,
+        "positionX": 733,
+        "positionY": 288
+    },
+    {
+        "name": "DGM",
+        "type": "square",
+        "color": "#2d5cc4",
+        "size": 9,
+        "positionX": 405,
+        "positionY": 227
+    },
+    {
+        "name": "PFJ",
+        "type": "square",
+        "color": "#b8c132",
+        "size": 7,
+        "positionX": 530,
+        "positionY": 681
+    },
+    {
+        "name": "LTR",
+        "type": "square",
+        "color": "#eec3c7",
+        "size": 5,
+        "positionX": 443,
+        "positionY": 407
+    },
+    {
+        "name": "NBX",
+        "type": "square",
+        "color": "#fcb549",
+        "size": 13,
+        "positionX": 417,
+        "positionY": 665
+    },
+    {
+        "name": "WGB",
+        "type": "square",
+        "color": "#d7e0aa",
+        "size": 13,
+        "positionX": 366,
+        "positionY": 704
+    },
+    {
+        "name": "TMA",
+        "type": "square",
+        "color": "#69e3a5",
+        "size": 10,
+        "positionX": 67,
+        "positionY": 542
+    },
+    {
+        "name": "SEF",
+        "type": "square",
+        "color": "#bbc1df",
+        "size": 12,
+        "positionX": 757,
+        "positionY": 16
+    },
+    {
+        "name": "BR-",
+        "type": "square",
+        "color": "#97d502",
+        "size": 15,
+        "positionX": 514,
+        "positionY": 753
+    },
+    {
+        "name": "SNR",
+        "type": "triangle",
+        "color": "#f8498b",
+        "size": 6,
+        "positionX": 132,
+        "positionY": 320
+    },
+    {
+        "name": "SBU",
+        "type": "square",
+        "color": "#c27fdf",
+        "size": 8,
+        "positionX": 511,
+        "positionY": 132
+    },
+    {
+        "name": "JXA",
+        "type": "square",
+        "color": "#326d78",
+        "size": 10,
+        "positionX": 799,
+        "positionY": 69
+    },
+    {
+        "name": "SPF",
+        "type": "circle",
+        "color": "#2def4c",
+        "size": 7,
+        "positionX": 306,
+        "positionY": 786
+    },
+    {
+        "name": "PWO",
+        "type": "triangle",
+        "color": "#06edee",
+        "size": 15,
+        "positionX": 520,
+        "positionY": 283
+    },
+    {
+        "name": "STX",
+        "type": "triangle",
+        "color": "#d62fe4",
+        "size": 7,
+        "positionX": 257,
+        "positionY": 128
+    },
+    {
+        "name": "OBN",
+        "type": "circle",
+        "color": "#3b9bd5",
+        "size": 14,
+        "positionX": 773,
+        "positionY": 551
+    },
+    {
+        "name": "YAB",
+        "type": "triangle",
+        "color": "#8df76f",
+        "size": 7,
+        "positionX": 378,
+        "positionY": 296
+    },
+    {
+        "name": "DIE",
+        "type": "circle",
+        "color": "#7c4d07",
+        "size": 7,
+        "positionX": 6,
+        "positionY": 12
+    },
+    {
+        "name": "MEJ",
+        "type": "circle",
+        "color": "#fc4d4b",
+        "size": 6,
+        "positionX": 735,
+        "positionY": 249
+    },
+    {
+        "name": "LNE",
+        "type": "circle",
+        "color": "#90b863",
+        "size": 6,
+        "positionX": 322,
+        "positionY": 601
+    },
+    {
+        "name": "SAP",
+        "type": "circle",
+        "color": "#e0a8ca",
+        "size": 12,
+        "positionX": 485,
+        "positionY": 482
+    },
+    {
+        "name": "BSF",
+        "type": "square",
+        "color": "#243465",
+        "size": 12,
+        "positionX": 638,
+        "positionY": 504
+    },
+    {
+        "name": "LSO",
+        "type": "triangle",
+        "color": "#ab1e53",
+        "size": 9,
+        "positionX": 367,
+        "positionY": 510
+    },
+    {
+        "name": "RAX",
+        "type": "triangle",
+        "color": "#ace085",
+        "size": 14,
+        "positionX": 533,
+        "positionY": 464
+    },
+    {
+        "name": "ZQW",
+        "type": "circle",
+        "color": "#12db58",
+        "size": 12,
+        "positionX": 232,
+        "positionY": 153
+    },
+    {
+        "name": "SWW",
+        "type": "triangle",
+        "color": "#81db88",
+        "size": 6,
+        "positionX": 757,
+        "positionY": 702
+    },
+    {
+        "name": "BR-",
+        "type": "circle",
+        "color": "#964004",
+        "size": 10,
+        "positionX": 663,
+        "positionY": 261
+    },
+    {
+        "name": "UPP",
+        "type": "circle",
+        "color": "#9a6f3b",
+        "size": 8,
+        "positionX": 339,
+        "positionY": 457
+    },
+    {
+        "name": "VLS",
+        "type": "triangle",
+        "color": "#76695e",
+        "size": 7,
+        "positionX": 196,
+        "positionY": 794
+    },
+    {
+        "name": "MXR",
+        "type": "triangle",
+        "color": "#34e952",
+        "size": 10,
+        "positionX": 701,
+        "positionY": 404
+    },
+    {
+        "name": "TUS",
+        "type": "circle",
+        "color": "#eebb5d",
+        "size": 9,
+        "positionX": 516,
+        "positionY": 528
+    },
+    {
+        "name": "SRD",
+        "type": "triangle",
+        "color": "#53259f",
+        "size": 7,
+        "positionX": 731,
+        "positionY": 583
+    },
+    {
+        "name": "GFA",
+        "type": "square",
+        "color": "#de3e8a",
+        "size": 11,
+        "positionX": 452,
+        "positionY": 663
+    },
+    {
+        "name": "CDV",
+        "type": "circle",
+        "color": "#a37714",
+        "size": 9,
+        "positionX": 110,
+        "positionY": 758
+    },
+    {
+        "name": "LTM",
+        "type": "circle",
+        "color": "#f75fa2",
+        "size": 10,
+        "positionX": 64,
+        "positionY": 194
+    },
+    {
+        "name": "UYL",
+        "type": "square",
+        "color": "#ab0dd2",
+        "size": 14,
+        "positionX": 356,
+        "positionY": 692
+    },
+    {
+        "name": "HNH",
+        "type": "circle",
+        "color": "#571f68",
+        "size": 12,
+        "positionX": 187,
+        "positionY": 49
+    },
+    {
+        "name": "CEP",
+        "type": "circle",
+        "color": "#ad28f4",
+        "size": 15,
+        "positionX": 88,
+        "positionY": 55
+    },
+    {
+        "name": "SEW",
+        "type": "triangle",
+        "color": "#2333d4",
+        "size": 13,
+        "positionX": 642,
+        "positionY": 781
+    },
+    {
+        "name": "ESB",
+        "type": "circle",
+        "color": "#eeb387",
+        "size": 7,
+        "positionX": 794,
+        "positionY": 85
+    },
+    {
+        "name": "MQJ",
+        "type": "square",
+        "color": "#b85cd1",
+        "size": 6,
+        "positionX": 590,
+        "positionY": 584
+    },
+    {
+        "name": "PYB",
+        "type": "square",
+        "color": "#790e10",
+        "size": 11,
+        "positionX": 589,
+        "positionY": 156
+    },
+    {
+        "name": "ZMD",
+        "type": "triangle",
+        "color": "#9b87fb",
+        "size": 15,
+        "positionX": 391,
+        "positionY": 575
+    },
+    {
+        "name": "CCI",
+        "type": "triangle",
+        "color": "#4b459f",
+        "size": 12,
+        "positionX": 173,
+        "positionY": 414
+    },
+    {
+        "name": "CMV",
+        "type": "circle",
+        "color": "#74f279",
+        "size": 5,
+        "positionX": 93,
+        "positionY": 322
+    },
+    {
+        "name": "TDS",
+        "type": "triangle",
+        "color": "#0f8d63",
+        "size": 8,
+        "positionX": 713,
+        "positionY": 573
+    },
+    {
+        "name": "KND",
+        "type": "triangle",
+        "color": "#5699fb",
+        "size": 11,
+        "positionX": 697,
+        "positionY": 235
+    },
+    {
+        "name": "XNT",
+        "type": "square",
+        "color": "#6ba184",
+        "size": 7,
+        "positionX": 330,
+        "positionY": 6
+    },
+    {
+        "name": "NTY",
+        "type": "square",
+        "color": "#7599e5",
+        "size": 14,
+        "positionX": 270,
+        "positionY": 188
+    },
+    {
+        "name": "TBZ",
+        "type": "triangle",
+        "color": "#a8e598",
+        "size": 7,
+        "positionX": 253,
+        "positionY": 449
+    },
+    {
+        "name": "SOB",
+        "type": "square",
+        "color": "#6bb141",
+        "size": 6,
+        "positionX": 513,
+        "positionY": 364
+    },
+    {
+        "name": "SUH",
+        "type": "circle",
+        "color": "#00da61",
+        "size": 13,
+        "positionX": 655,
+        "positionY": 283
+    },
+    {
+        "name": "PDG",
+        "type": "square",
+        "color": "#8a38e2",
+        "size": 12,
+        "positionX": 624,
+        "positionY": 631
+    },
+    {
+        "name": "BTN",
+        "type": "square",
+        "color": "#9c85d1",
+        "size": 10,
+        "positionX": 296,
+        "positionY": 383
+    },
+    {
+        "name": "IRO",
+        "type": "circle",
+        "color": "#081125",
+        "size": 10,
+        "positionX": 4,
+        "positionY": 225
+    },
+    {
+        "name": "CLP",
+        "type": "square",
+        "color": "#9dd76e",
+        "size": 11,
+        "positionX": 574,
+        "positionY": 735
+    },
+    {
+        "name": "OME",
+        "type": "triangle",
+        "color": "#2d229f",
+        "size": 5,
+        "positionX": 534,
+        "positionY": 19
+    },
+    {
+        "name": "KTA",
+        "type": "circle",
+        "color": "#9d7fc9",
+        "size": 15,
+        "positionX": 206,
+        "positionY": 463
+    },
+    {
+        "name": "PUN",
+        "type": "triangle",
+        "color": "#c39229",
+        "size": 8,
+        "positionX": 53,
+        "positionY": 791
+    },
+    {
+        "name": "YKH",
+        "type": "triangle",
+        "color": "#5dfcfe",
+        "size": 12,
+        "positionX": 476,
+        "positionY": 176
+    },
+    {
+        "name": "BBX",
+        "type": "circle",
+        "color": "#587484",
+        "size": 5,
+        "positionX": 160,
+        "positionY": 38
+    },
+    {
+        "name": "XMD",
+        "type": "square",
+        "color": "#f463a2",
+        "size": 11,
+        "positionX": 672,
+        "positionY": 526
+    },
+    {
+        "name": "HHR",
+        "type": "triangle",
+        "color": "#83947e",
+        "size": 8,
+        "positionX": 695,
+        "positionY": 335
+    },
+    {
+        "name": "AVO",
+        "type": "circle",
+        "color": "#129330",
+        "size": 10,
+        "positionX": 436,
+        "positionY": 77
+    },
+    {
+        "name": "WTZ",
+        "type": "triangle",
+        "color": "#a5a0e1",
+        "size": 11,
+        "positionX": 574,
+        "positionY": 668
+    },
+    {
+        "name": "SNI",
+        "type": "triangle",
+        "color": "#40d4e8",
+        "size": 12,
+        "positionX": 428,
+        "positionY": 78
+    },
+    {
+        "name": "UIL",
+        "type": "square",
+        "color": "#b68bb7",
+        "size": 14,
+        "positionX": 397,
+        "positionY": 52
+    },
+    {
+        "name": "BJY",
+        "type": "circle",
+        "color": "#9594bc",
+        "size": 6,
+        "positionX": 201,
+        "positionY": 99
+    },
+    {
+        "name": "PHI",
+        "type": "triangle",
+        "color": "#110060",
+        "size": 13,
+        "positionX": 36,
+        "positionY": 287
+    },
+    {
+        "name": "BJO",
+        "type": "triangle",
+        "color": "#6669ab",
+        "size": 15,
+        "positionX": 412,
+        "positionY": 609
+    },
+    {
+        "name": "ARP",
+        "type": "triangle",
+        "color": "#c636bf",
+        "size": 11,
+        "positionX": 305,
+        "positionY": 30
+    },
+    {
+        "name": "SIX",
+        "type": "triangle",
+        "color": "#bbc967",
+        "size": 6,
+        "positionX": 131,
+        "positionY": 275
+    },
+    {
+        "name": "EMX",
+        "type": "triangle",
+        "color": "#f470e4",
+        "size": 6,
+        "positionX": 158,
+        "positionY": 161
+    },
+    {
+        "name": "ZSP",
+        "type": "square",
+        "color": "#213167",
+        "size": 12,
+        "positionX": 13,
+        "positionY": 578
+    },
+    {
+        "name": "RZH",
+        "type": "triangle",
+        "color": "#4f891b",
+        "size": 5,
+        "positionX": 599,
+        "positionY": 517
+    },
+    {
+        "name": "LVO",
+        "type": "triangle",
+        "color": "#266995",
+        "size": 9,
+        "positionX": 516,
+        "positionY": 39
+    },
+    {
+        "name": "RCB",
+        "type": "square",
+        "color": "#beb704",
+        "size": 14,
+        "positionX": 122,
+        "positionY": 519
+    },
+    {
+        "name": "CRV",
+        "type": "square",
+        "color": "#cffb30",
+        "size": 12,
+        "positionX": 61,
+        "positionY": 553
+    },
+    {
+        "name": "VDY",
+        "type": "square",
+        "color": "#b4667f",
+        "size": 12,
+        "positionX": 359,
+        "positionY": 294
+    },
+    {
+        "name": "LBR",
+        "type": "square",
+        "color": "#61702f",
+        "size": 14,
+        "positionX": 666,
+        "positionY": 127
+    },
+    {
+        "name": "VLD",
+        "type": "circle",
+        "color": "#c559d9",
+        "size": 7,
+        "positionX": 3,
+        "positionY": 736
+    },
+    {
+        "name": "MSV",
+        "type": "triangle",
+        "color": "#d16ae4",
+        "size": 5,
+        "positionX": 534,
+        "positionY": 520
+    },
+    {
+        "name": "BXJ",
+        "type": "triangle",
+        "color": "#a32416",
+        "size": 13,
+        "positionX": 116,
+        "positionY": 361
+    },
+    {
+        "name": "TFI",
+        "type": "square",
+        "color": "#32818b",
+        "size": 7,
+        "positionX": 133,
+        "positionY": 44
+    },
+    {
+        "name": "AEP",
+        "type": "triangle",
+        "color": "#0483f9",
+        "size": 10,
+        "positionX": 49,
+        "positionY": 589
+    },
+    {
+        "name": "RZA",
+        "type": "circle",
+        "color": "#88a603",
+        "size": 12,
+        "positionX": 196,
+        "positionY": 24
+    },
+    {
+        "name": "DSV",
+        "type": "triangle",
+        "color": "#e37de2",
+        "size": 12,
+        "positionX": 250,
+        "positionY": 241
+    },
+    {
+        "name": "PZE",
+        "type": "circle",
+        "color": "#a37003",
+        "size": 14,
+        "positionX": 152,
+        "positionY": 569
+    },
+    {
+        "name": "PCR",
+        "type": "circle",
+        "color": "#80789d",
+        "size": 5,
+        "positionX": 232,
+        "positionY": 203
+    },
+    {
+        "name": "BDW",
+        "type": "circle",
+        "color": "#842fcc",
+        "size": 15,
+        "positionX": 601,
+        "positionY": 164
+    },
+    {
+        "name": "YQF",
+        "type": "circle",
+        "color": "#9e4b30",
+        "size": 12,
+        "positionX": 762,
+        "positionY": 215
+    },
+    {
+        "name": "MVV",
+        "type": "square",
+        "color": "#4d18cc",
+        "size": 11,
+        "positionX": 464,
+        "positionY": 415
+    },
+    {
+        "name": "TUT",
+        "type": "square",
+        "color": "#122562",
+        "size": 12,
+        "positionX": 576,
+        "positionY": 124
+    },
+    {
+        "name": "MVC",
+        "type": "triangle",
+        "color": "#cac450",
+        "size": 11,
+        "positionX": 411,
+        "positionY": 533
+    },
+    {
+        "name": "YPJ",
+        "type": "triangle",
+        "color": "#d75e10",
+        "size": 8,
+        "positionX": 269,
+        "positionY": 640
+    },
+    {
+        "name": "MAF",
+        "type": "triangle",
+        "color": "#84a303",
+        "size": 11,
+        "positionX": 638,
+        "positionY": 501
+    },
+    {
+        "name": "AKY",
+        "type": "triangle",
+        "color": "#1a10bf",
+        "size": 8,
+        "positionX": 16,
+        "positionY": 291
+    },
+    {
+        "name": "ZUH",
+        "type": "square",
+        "color": "#475002",
+        "size": 8,
+        "positionX": 710,
+        "positionY": 150
+    },
+    {
+        "name": "DWH",
+        "type": "circle",
+        "color": "#1f6213",
+        "size": 6,
+        "positionX": 315,
+        "positionY": 484
+    },
+    {
+        "name": "SXZ",
+        "type": "triangle",
+        "color": "#b34117",
+        "size": 15,
+        "positionX": 180,
+        "positionY": 244
+    },
+    {
+        "name": "KEA",
+        "type": "triangle",
+        "color": "#40c12b",
+        "size": 12,
+        "positionX": 61,
+        "positionY": 170
+    },
+    {
+        "name": "MJT",
+        "type": "square",
+        "color": "#826d99",
+        "size": 7,
+        "positionX": 502,
+        "positionY": 732
+    },
+    {
+        "name": "PNP",
+        "type": "circle",
+        "color": "#244d5f",
+        "size": 6,
+        "positionX": 595,
+        "positionY": 218
+    },
+    {
+        "name": "AYM",
+        "type": "circle",
+        "color": "#853c1a",
+        "size": 14,
+        "positionX": 731,
+        "positionY": 115
+    },
+    {
+        "name": "REG",
+        "type": "square",
+        "color": "#8f35ab",
+        "size": 11,
+        "positionX": 221,
+        "positionY": 17
+    },
+    {
+        "name": "BEW",
+        "type": "triangle",
+        "color": "#0cf60b",
+        "size": 15,
+        "positionX": 207,
+        "positionY": 730
+    },
+    {
+        "name": "NEG",
+        "type": "circle",
+        "color": "#efe968",
+        "size": 11,
+        "positionX": 563,
+        "positionY": 789
+    },
+    {
+        "name": "NBG",
+        "type": "square",
+        "color": "#ae9c09",
+        "size": 10,
+        "positionX": 78,
+        "positionY": 10
+    },
+    {
+        "name": "HOY",
+        "type": "square",
+        "color": "#ccc8bd",
+        "size": 9,
+        "positionX": 24,
+        "positionY": 140
+    },
+    {
+        "name": "HTI",
+        "type": "triangle",
+        "color": "#08f047",
+        "size": 8,
+        "positionX": 372,
+        "positionY": 353
+    },
+    {
+        "name": "CXH",
+        "type": "circle",
+        "color": "#d2365b",
+        "size": 15,
+        "positionX": 697,
+        "positionY": 14
+    },
+    {
+        "name": "MQF",
+        "type": "square",
+        "color": "#594616",
+        "size": 5,
+        "positionX": 203,
+        "positionY": 547
+    },
+    {
+        "name": "BAR",
+        "type": "triangle",
+        "color": "#9600a8",
+        "size": 14,
+        "positionX": 103,
+        "positionY": 564
+    },
+    {
+        "name": "JVA",
+        "type": "circle",
+        "color": "#aa6cf8",
+        "size": 6,
+        "positionX": 600,
+        "positionY": 358
+    },
+    {
+        "name": "YSI",
+        "type": "triangle",
+        "color": "#f97b22",
+        "size": 13,
+        "positionX": 158,
+        "positionY": 262
+    },
+    {
+        "name": "UCK",
+        "type": "triangle",
+        "color": "#4e68ad",
+        "size": 14,
+        "positionX": 153,
+        "positionY": 542
+    },
+    {
+        "name": "HDD",
+        "type": "square",
+        "color": "#f8d870",
+        "size": 10,
+        "positionX": 653,
+        "positionY": 742
+    },
+    {
+        "name": "PGM",
+        "type": "square",
+        "color": "#ad14a4",
+        "size": 13,
+        "positionX": 310,
+        "positionY": 432
+    },
+    {
+        "name": "USU",
+        "type": "triangle",
+        "color": "#6f6235",
+        "size": 8,
+        "positionX": 488,
+        "positionY": 368
+    },
+    {
+        "name": "SIR",
+        "type": "circle",
+        "color": "#3cf6d8",
+        "size": 11,
+        "positionX": 550,
+        "positionY": 671
+    },
+    {
+        "name": "KVE",
+        "type": "triangle",
+        "color": "#92a7da",
+        "size": 7,
+        "positionX": 549,
+        "positionY": 14
+    },
+    {
+        "name": "MDR",
+        "type": "circle",
+        "color": "#605f79",
+        "size": 15,
+        "positionX": 36,
+        "positionY": 265
+    },
+    {
+        "name": "CSG",
+        "type": "circle",
+        "color": "#adab16",
+        "size": 6,
+        "positionX": 413,
+        "positionY": 45
+    },
+    {
+        "name": "LAD",
+        "type": "square",
+        "color": "#4a97d3",
+        "size": 13,
+        "positionX": 347,
+        "positionY": 471
+    },
+    {
+        "name": "XBN",
+        "type": "triangle",
+        "color": "#8e242d",
+        "size": 14,
+        "positionX": 607,
+        "positionY": 452
+    },
+    {
+        "name": "YSI",
+        "type": "square",
+        "color": "#5904dd",
+        "size": 11,
+        "positionX": 603,
+        "positionY": 139
+    },
+    {
+        "name": "JAB",
+        "type": "circle",
+        "color": "#9e4585",
+        "size": 15,
+        "positionX": 527,
+        "positionY": 785
+    },
+    {
+        "name": "BHQ",
+        "type": "triangle",
+        "color": "#58eef7",
+        "size": 12,
+        "positionX": 766,
+        "positionY": 291
+    },
+    {
+        "name": "HIT",
+        "type": "circle",
+        "color": "#5f95ae",
+        "size": 10,
+        "positionX": 350,
+        "positionY": 193
+    },
+    {
+        "name": "MEG",
+        "type": "triangle",
+        "color": "#72ffc1",
+        "size": 10,
+        "positionX": 290,
+        "positionY": 327
+    },
+    {
+        "name": "OLJ",
+        "type": "triangle",
+        "color": "#792c52",
+        "size": 5,
+        "positionX": 739,
+        "positionY": 297
+    },
+    {
+        "name": "IRN",
+        "type": "triangle",
+        "color": "#1d6370",
+        "size": 8,
+        "positionX": 369,
+        "positionY": 362
+    },
+    {
+        "name": "SIA",
+        "type": "square",
+        "color": "#d366e4",
+        "size": 13,
+        "positionX": 594,
+        "positionY": 378
+    },
+    {
+        "name": "GUJ",
+        "type": "triangle",
+        "color": "#ea1f7d",
+        "size": 7,
+        "positionX": 552,
+        "positionY": 57
+    },
+    {
+        "name": "PTK",
+        "type": "square",
+        "color": "#938a37",
+        "size": 8,
+        "positionX": 331,
+        "positionY": 172
+    },
+    {
+        "name": "RMF",
+        "type": "circle",
+        "color": "#23b266",
+        "size": 5,
+        "positionX": 31,
+        "positionY": 483
+    },
+    {
+        "name": "YAD",
+        "type": "square",
+        "color": "#a8f7fe",
+        "size": 10,
+        "positionX": 790,
+        "positionY": 549
+    },
+    {
+        "name": "NAZ",
+        "type": "square",
+        "color": "#528109",
+        "size": 10,
+        "positionX": 289,
+        "positionY": 57
+    },
+    {
+        "name": "TUY",
+        "type": "square",
+        "color": "#afe9b5",
+        "size": 11,
+        "positionX": 396,
+        "positionY": 18
+    },
+    {
+        "name": "NGU",
+        "type": "triangle",
+        "color": "#85dec1",
+        "size": 13,
+        "positionX": 361,
+        "positionY": 465
+    },
+    {
+        "name": "REG",
+        "type": "circle",
+        "color": "#71e76c",
+        "size": 8,
+        "positionX": 51,
+        "positionY": 463
+    },
+    {
+        "name": "LNF",
+        "type": "triangle",
+        "color": "#9c279a",
+        "size": 12,
+        "positionX": 730,
+        "positionY": 194
+    },
+    {
+        "name": "GUZ",
+        "type": "triangle",
+        "color": "#7eb1c1",
+        "size": 14,
+        "positionX": 385,
+        "positionY": 605
+    },
+    {
+        "name": "MME",
+        "type": "triangle",
+        "color": "#c8e1a1",
+        "size": 7,
+        "positionX": 217,
+        "positionY": 796
+    },
+    {
+        "name": "JGA",
+        "type": "triangle",
+        "color": "#36e19a",
+        "size": 8,
+        "positionX": 113,
+        "positionY": 673
+    },
+    {
+        "name": "ENC",
+        "type": "circle",
+        "color": "#fec642",
+        "size": 14,
+        "positionX": 685,
+        "positionY": 173
+    },
+    {
+        "name": "JHG",
+        "type": "square",
+        "color": "#5ea6ee",
+        "size": 7,
+        "positionX": 732,
+        "positionY": 263
+    },
+    {
+        "name": "TNZ",
+        "type": "square",
+        "color": "#211ff9",
+        "size": 12,
+        "positionX": 238,
+        "positionY": 383
+    },
+    {
+        "name": "VSA",
+        "type": "square",
+        "color": "#58dcf9",
+        "size": 11,
+        "positionX": 310,
+        "positionY": 362
+    },
+    {
+        "name": "KKH",
+        "type": "circle",
+        "color": "#19fdc5",
+        "size": 14,
+        "positionX": 629,
+        "positionY": 746
+    },
+    {
+        "name": "SPQ",
+        "type": "square",
+        "color": "#0d24b0",
+        "size": 9,
+        "positionX": 52,
+        "positionY": 159
+    },
+    {
+        "name": "NMB",
+        "type": "circle",
+        "color": "#7c56c2",
+        "size": 8,
+        "positionX": 653,
+        "positionY": 206
+    },
+    {
+        "name": "BOR",
+        "type": "circle",
+        "color": "#8b1139",
+        "size": 10,
+        "positionX": 35,
+        "positionY": 8
+    },
+    {
+        "name": "SVC",
+        "type": "square",
+        "color": "#ec5918",
+        "size": 12,
+        "positionX": 195,
+        "positionY": 565
+    },
+    {
+        "name": "ORL",
+        "type": "circle",
+        "color": "#5b0038",
+        "size": 9,
+        "positionX": 460,
+        "positionY": 561
+    },
+    {
+        "name": "XFW",
+        "type": "triangle",
+        "color": "#bbc870",
+        "size": 10,
+        "positionX": 5,
+        "positionY": 257
+    },
+    {
+        "name": "NTJ",
+        "type": "triangle",
+        "color": "#63cedb",
+        "size": 10,
+        "positionX": 635,
+        "positionY": 361
+    },
+    {
+        "name": "SWV",
+        "type": "square",
+        "color": "#1cba8d",
+        "size": 13,
+        "positionX": 583,
+        "positionY": 421
+    },
+    {
+        "name": "CNB",
+        "type": "circle",
+        "color": "#899142",
+        "size": 13,
+        "positionX": 230,
+        "positionY": 255
+    },
+    {
+        "name": "BOF",
+        "type": "square",
+        "color": "#8dd75e",
+        "size": 5,
+        "positionX": 505,
+        "positionY": 384
+    },
+    {
+        "name": "CMA",
+        "type": "triangle",
+        "color": "#f6f20f",
+        "size": 9,
+        "positionX": 328,
+        "positionY": 355
+    },
+    {
+        "name": "TED",
+        "type": "triangle",
+        "color": "#4fc62c",
+        "size": 8,
+        "positionX": 727,
+        "positionY": 14
+    },
+    {
+        "name": "NIP",
+        "type": "square",
+        "color": "#17dcb1",
+        "size": 10,
+        "positionX": 720,
+        "positionY": 155
+    },
+    {
+        "name": "ATJ",
+        "type": "triangle",
+        "color": "#958424",
+        "size": 13,
+        "positionX": 135,
+        "positionY": 205
+    },
+    {
+        "name": "VTU",
+        "type": "square",
+        "color": "#7ae8a2",
+        "size": 8,
+        "positionX": 431,
+        "positionY": 300
+    },
+    {
+        "name": "KTR",
+        "type": "triangle",
+        "color": "#5a00c2",
+        "size": 14,
+        "positionX": 526,
+        "positionY": 241
+    },
+    {
+        "name": "TBZ",
+        "type": "square",
+        "color": "#23bbe5",
+        "size": 6,
+        "positionX": 260,
+        "positionY": 81
+    },
+    {
+        "name": "CGG",
+        "type": "square",
+        "color": "#b88768",
+        "size": 13,
+        "positionX": 246,
+        "positionY": 735
+    },
+    {
+        "name": "EWY",
+        "type": "square",
+        "color": "#8955c0",
+        "size": 13,
+        "positionX": 768,
+        "positionY": 211
+    },
+    {
+        "name": "MFX",
+        "type": "square",
+        "color": "#d0001d",
+        "size": 15,
+        "positionX": 570,
+        "positionY": 158
+    },
+    {
+        "name": "MXD",
+        "type": "circle",
+        "color": "#dae672",
+        "size": 5,
+        "positionX": 289,
+        "positionY": 711
+    },
+    {
+        "name": "XBN",
+        "type": "square",
+        "color": "#0505bd",
+        "size": 5,
+        "positionX": 91,
+        "positionY": 479
+    },
+    {
+        "name": "KAS",
+        "type": "triangle",
+        "color": "#8594ef",
+        "size": 10,
+        "positionX": 384,
+        "positionY": 541
+    },
+    {
+        "name": "KSP",
+        "type": "square",
+        "color": "#0dbdb1",
+        "size": 10,
+        "positionX": 698,
+        "positionY": 259
+    },
+    {
+        "name": "KUP",
+        "type": "square",
+        "color": "#31e04e",
+        "size": 8,
+        "positionX": 731,
+        "positionY": 594
+    },
+    {
+        "name": "LDG",
+        "type": "square",
+        "color": "#bb4b78",
+        "size": 5,
+        "positionX": 3,
+        "positionY": 174
+    },
+    {
+        "name": "GBA",
+        "type": "triangle",
+        "color": "#c583a4",
+        "size": 5,
+        "positionX": 663,
+        "positionY": 734
+    },
+    {
+        "name": "AIV",
+        "type": "square",
+        "color": "#39b514",
+        "size": 7,
+        "positionX": 758,
+        "positionY": 747
+    },
+    {
+        "name": "KGP",
+        "type": "square",
+        "color": "#d41cc7",
+        "size": 15,
+        "positionX": 705,
+        "positionY": 489
+    },
+    {
+        "name": "KGO",
+        "type": "circle",
+        "color": "#0ee1e9",
+        "size": 7,
+        "positionX": 19,
+        "positionY": 88
+    },
+    {
+        "name": "KON",
+        "type": "triangle",
+        "color": "#5301af",
+        "size": 15,
+        "positionX": 338,
+        "positionY": 284
+    },
+    {
+        "name": "BCC",
+        "type": "triangle",
+        "color": "#1fc593",
+        "size": 7,
+        "positionX": 650,
+        "positionY": 505
+    },
+    {
+        "name": "TWZ",
+        "type": "triangle",
+        "color": "#a92770",
+        "size": 12,
+        "positionX": 178,
+        "positionY": 107
+    },
+    {
+        "name": "AUI",
+        "type": "circle",
+        "color": "#3f42ef",
+        "size": 9,
+        "positionX": 183,
+        "positionY": 617
+    },
+    {
+        "name": "ROD",
+        "type": "circle",
+        "color": "#139ff0",
+        "size": 12,
+        "positionX": 76,
+        "positionY": 417
+    },
+    {
+        "name": "DNX",
+        "type": "triangle",
+        "color": "#65e92f",
+        "size": 6,
+        "positionX": 297,
+        "positionY": 222
+    },
+    {
+        "name": "KTQ",
+        "type": "triangle",
+        "color": "#154a47",
+        "size": 6,
+        "positionX": 5,
+        "positionY": 596
+    },
+    {
+        "name": "IVH",
+        "type": "circle",
+        "color": "#0e49cf",
+        "size": 7,
+        "positionX": 541,
+        "positionY": 550
+    },
+    {
+        "name": "OCW",
+        "type": "square",
+        "color": "#7e92e9",
+        "size": 7,
+        "positionX": 357,
+        "positionY": 494
+    },
+    {
+        "name": "MLG",
+        "type": "circle",
+        "color": "#861565",
+        "size": 15,
+        "positionX": 488,
+        "positionY": 392
+    },
+    {
+        "name": "KWM",
+        "type": "square",
+        "color": "#7e29f1",
+        "size": 13,
+        "positionX": 402,
+        "positionY": 766
+    },
+    {
+        "name": "TMW",
+        "type": "square",
+        "color": "#4db1b4",
+        "size": 6,
+        "positionX": 485,
+        "positionY": 397
+    },
+    {
+        "name": "CGF",
+        "type": "square",
+        "color": "#e88c6d",
+        "size": 13,
+        "positionX": 235,
+        "positionY": 382
+    },
+    {
+        "name": "MWH",
+        "type": "triangle",
+        "color": "#8a14e6",
+        "size": 8,
+        "positionX": 111,
+        "positionY": 471
+    },
+    {
+        "name": "IXY",
+        "type": "circle",
+        "color": "#6a460a",
+        "size": 10,
+        "positionX": 90,
+        "positionY": 588
+    },
+    {
+        "name": "OAZ",
+        "type": "square",
+        "color": "#fbe2f2",
+        "size": 13,
+        "positionX": 506,
+        "positionY": 793
+    },
+    {
+        "name": "MXI",
+        "type": "triangle",
+        "color": "#5260c4",
+        "size": 8,
+        "positionX": 322,
+        "positionY": 168
+    },
+    {
+        "name": "BJM",
+        "type": "circle",
+        "color": "#95a271",
+        "size": 10,
+        "positionX": 520,
+        "positionY": 644
+    },
+    {
+        "name": "SDV",
+        "type": "triangle",
+        "color": "#65a94e",
+        "size": 11,
+        "positionX": 622,
+        "positionY": 698
+    },
+    {
+        "name": "LCD",
+        "type": "triangle",
+        "color": "#f0cb5b",
+        "size": 11,
+        "positionX": 135,
+        "positionY": 44
+    },
+    {
+        "name": "KIZ",
+        "type": "square",
+        "color": "#85844f",
+        "size": 8,
+        "positionX": 187,
+        "positionY": 219
+    },
+    {
+        "name": "MZQ",
+        "type": "square",
+        "color": "#f15300",
+        "size": 11,
+        "positionX": 362,
+        "positionY": 594
+    },
+    {
+        "name": "KVR",
+        "type": "square",
+        "color": "#f8d8be",
+        "size": 6,
+        "positionX": 200,
+        "positionY": 418
+    },
+    {
+        "name": "COJ",
+        "type": "square",
+        "color": "#dbf1c3",
+        "size": 13,
+        "positionX": 125,
+        "positionY": 467
+    },
+    {
+        "name": "XCL",
+        "type": "triangle",
+        "color": "#829e3d",
+        "size": 9,
+        "positionX": 220,
+        "positionY": 745
+    },
+    {
+        "name": "AZN",
+        "type": "triangle",
+        "color": "#60fe96",
+        "size": 9,
+        "positionX": 605,
+        "positionY": 649
+    },
+    {
+        "name": "HND",
+        "type": "circle",
+        "color": "#16ea13",
+        "size": 7,
+        "positionX": 144,
+        "positionY": 347
+    },
+    {
+        "name": "YXL",
+        "type": "square",
+        "color": "#85c8fb",
+        "size": 8,
+        "positionX": 402,
+        "positionY": 446
+    },
+    {
+        "name": "ISO",
+        "type": "square",
+        "color": "#7193e2",
+        "size": 9,
+        "positionX": 740,
+        "positionY": 287
+    },
+    {
+        "name": "TPJ",
+        "type": "triangle",
+        "color": "#f71253",
+        "size": 15,
+        "positionX": 605,
+        "positionY": 374
+    },
+    {
+        "name": "VEX",
+        "type": "triangle",
+        "color": "#882088",
+        "size": 14,
+        "positionX": 407,
+        "positionY": 514
+    },
+    {
+        "name": "NTR",
+        "type": "square",
+        "color": "#59c3c3",
+        "size": 12,
+        "positionX": 734,
+        "positionY": 156
+    },
+    {
+        "name": "MRS",
+        "type": "circle",
+        "color": "#a6a57d",
+        "size": 6,
+        "positionX": 105,
+        "positionY": 426
+    },
+    {
+        "name": "BRD",
+        "type": "circle",
+        "color": "#71e8e7",
+        "size": 8,
+        "positionX": 550,
+        "positionY": 96
+    },
+    {
+        "name": "URI",
+        "type": "triangle",
+        "color": "#0cb53d",
+        "size": 10,
+        "positionX": 755,
+        "positionY": 717
+    },
+    {
+        "name": "WBW",
+        "type": "circle",
+        "color": "#5d4750",
+        "size": 13,
+        "positionX": 546,
+        "positionY": 209
+    },
+    {
+        "name": "RMN",
+        "type": "square",
+        "color": "#2cb341",
+        "size": 12,
+        "positionX": 65,
+        "positionY": 140
+    },
+    {
+        "name": "BNQ",
+        "type": "square",
+        "color": "#6b1451",
+        "size": 5,
+        "positionX": 403,
+        "positionY": 199
+    },
+    {
+        "name": "NPG",
+        "type": "square",
+        "color": "#1fa72f",
+        "size": 8,
+        "positionX": 669,
+        "positionY": 46
+    },
+    {
+        "name": "GUL",
+        "type": "triangle",
+        "color": "#0f12e9",
+        "size": 12,
+        "positionX": 249,
+        "positionY": 100
+    },
+    {
+        "name": "BEQ",
+        "type": "circle",
+        "color": "#243ce8",
+        "size": 14,
+        "positionX": 248,
+        "positionY": 781
+    },
+    {
+        "name": "TBL",
+        "type": "square",
+        "color": "#09e7f9",
+        "size": 14,
+        "positionX": 206,
+        "positionY": 318
+    },
+    {
+        "name": "JAX",
+        "type": "circle",
+        "color": "#9936e8",
+        "size": 12,
+        "positionX": 72,
+        "positionY": 306
+    },
+    {
+        "name": "HRI",
+        "type": "square",
+        "color": "#681f88",
+        "size": 15,
+        "positionX": 779,
+        "positionY": 367
+    },
+    {
+        "name": "PBT",
+        "type": "square",
+        "color": "#d58368",
+        "size": 12,
+        "positionX": 519,
+        "positionY": 664
+    },
+    {
+        "name": "VOH",
+        "type": "square",
+        "color": "#2eac10",
+        "size": 10,
+        "positionX": 380,
+        "positionY": 125
+    },
+    {
+        "name": "TDP",
+        "type": "circle",
+        "color": "#38d173",
+        "size": 15,
+        "positionX": 311,
+        "positionY": 444
+    },
+    {
+        "name": "IOU",
+        "type": "triangle",
+        "color": "#1f228a",
+        "size": 11,
+        "positionX": 42,
+        "positionY": 718
+    },
+    {
+        "name": "MJA",
+        "type": "triangle",
+        "color": "#16a0a6",
+        "size": 10,
+        "positionX": 195,
+        "positionY": 751
+    },
+    {
+        "name": "YHH",
+        "type": "square",
+        "color": "#26cd47",
+        "size": 7,
+        "positionX": 698,
+        "positionY": 456
+    },
+    {
+        "name": "MPM",
+        "type": "circle",
+        "color": "#645a69",
+        "size": 13,
+        "positionX": 513,
+        "positionY": 389
+    },
+    {
+        "name": "MTG",
+        "type": "square",
+        "color": "#661538",
+        "size": 10,
+        "positionX": 667,
+        "positionY": 201
+    },
+    {
+        "name": "LID",
+        "type": "circle",
+        "color": "#2b0288",
+        "size": 9,
+        "positionX": 31,
+        "positionY": 179
+    },
+    {
+        "name": "BKY",
+        "type": "triangle",
+        "color": "#0da870",
+        "size": 7,
+        "positionX": 530,
+        "positionY": 718
+    },
+    {
+        "name": "BMG",
+        "type": "square",
+        "color": "#d6bfc0",
+        "size": 15,
+        "positionX": 716,
+        "positionY": 130
+    },
+    {
+        "name": "YMT",
+        "type": "square",
+        "color": "#6e9ffd",
+        "size": 9,
+        "positionX": 594,
+        "positionY": 88
+    },
+    {
+        "name": "BOU",
+        "type": "circle",
+        "color": "#819f0a",
+        "size": 15,
+        "positionX": 782,
+        "positionY": 147
+    },
+    {
+        "name": "RKV",
+        "type": "square",
+        "color": "#f4ed73",
+        "size": 5,
+        "positionX": 415,
+        "positionY": 119
+    },
+    {
+        "name": "PAG",
+        "type": "triangle",
+        "color": "#9ca909",
+        "size": 6,
+        "positionX": 408,
+        "positionY": 386
+    },
+    {
+        "name": "MAT",
+        "type": "circle",
+        "color": "#9669d1",
+        "size": 11,
+        "positionX": 42,
+        "positionY": 325
+    },
+    {
+        "name": "ASB",
+        "type": "circle",
+        "color": "#93a893",
+        "size": 11,
+        "positionX": 265,
+        "positionY": 184
+    },
+    {
+        "name": "RZS",
+        "type": "circle",
+        "color": "#07f2f5",
+        "size": 14,
+        "positionX": 417,
+        "positionY": 270
+    },
+    {
+        "name": "TAR",
+        "type": "square",
+        "color": "#dea756",
+        "size": 8,
+        "positionX": 486,
+        "positionY": 211
+    },
+    {
+        "name": "RHN",
+        "type": "square",
+        "color": "#6ff8ea",
+        "size": 6,
+        "positionX": 310,
+        "positionY": 281
+    },
+    {
+        "name": "TDA",
+        "type": "circle",
+        "color": "#a00b2e",
+        "size": 6,
+        "positionX": 632,
+        "positionY": 158
+    },
+    {
+        "name": "DBB",
+        "type": "triangle",
+        "color": "#cf836c",
+        "size": 12,
+        "positionX": 362,
+        "positionY": 789
+    },
+    {
+        "name": "BJR",
+        "type": "triangle",
+        "color": "#a8b2ec",
+        "size": 14,
+        "positionX": 10,
+        "positionY": 198
+    },
+    {
+        "name": "KUA",
+        "type": "circle",
+        "color": "#054447",
+        "size": 9,
+        "positionX": 796,
+        "positionY": 369
+    },
+    {
+        "name": "MGT",
+        "type": "circle",
+        "color": "#edb83d",
+        "size": 5,
+        "positionX": 740,
+        "positionY": 256
+    },
+    {
+        "name": "PUU",
+        "type": "triangle",
+        "color": "#96d2e9",
+        "size": 8,
+        "positionX": 347,
+        "positionY": 479
+    },
+    {
+        "name": "OTN",
+        "type": "circle",
+        "color": "#13b043",
+        "size": 14,
+        "positionX": 319,
+        "positionY": 573
+    },
+    {
+        "name": "NUL",
+        "type": "triangle",
+        "color": "#56ed68",
+        "size": 10,
+        "positionX": 365,
+        "positionY": 431
+    },
+    {
+        "name": "TSD",
+        "type": "circle",
+        "color": "#154d46",
+        "size": 6,
+        "positionX": 651,
+        "positionY": 771
+    },
+    {
+        "name": "KWN",
+        "type": "circle",
+        "color": "#67a0d7",
+        "size": 6,
+        "positionX": 150,
+        "positionY": 687
+    },
+    {
+        "name": "UNN",
+        "type": "triangle",
+        "color": "#ba919d",
+        "size": 12,
+        "positionX": 291,
+        "positionY": 547
+    },
+    {
+        "name": "CZN",
+        "type": "triangle",
+        "color": "#7df74b",
+        "size": 5,
+        "positionX": 536,
+        "positionY": 509
+    },
+    {
+        "name": "KWB",
+        "type": "circle",
+        "color": "#da4882",
+        "size": 12,
+        "positionX": 49,
+        "positionY": 16
+    },
+    {
+        "name": "LEE",
+        "type": "triangle",
+        "color": "#6aca0c",
+        "size": 10,
+        "positionX": 728,
+        "positionY": 156
+    },
+    {
+        "name": "MUA",
+        "type": "square",
+        "color": "#42bed9",
+        "size": 7,
+        "positionX": 167,
+        "positionY": 53
+    },
+    {
+        "name": "PTO",
+        "type": "circle",
+        "color": "#6d241d",
+        "size": 5,
+        "positionX": 33,
+        "positionY": 361
+    },
+    {
+        "name": "LPT",
+        "type": "triangle",
+        "color": "#80b47e",
+        "size": 13,
+        "positionX": 297,
+        "positionY": 322
+    },
+    {
+        "name": "XBR",
+        "type": "triangle",
+        "color": "#a2cc37",
+        "size": 7,
+        "positionX": 10,
+        "positionY": 709
+    },
+    {
+        "name": "0",
+        "type": "triangle",
+        "color": "#de7a2e",
+        "size": 10,
+        "positionX": 497,
+        "positionY": 553
+    },
+    {
+        "name": "BFW",
+        "type": "triangle",
+        "color": "#d8a454",
+        "size": 10,
+        "positionX": 63,
+        "positionY": 35
+    },
+    {
+        "name": "OKH",
+        "type": "square",
+        "color": "#f9ce5a",
+        "size": 13,
+        "positionX": 218,
+        "positionY": 515
+    },
+    {
+        "name": "TDS",
+        "type": "triangle",
+        "color": "#dbd46e",
+        "size": 10,
+        "positionX": 239,
+        "positionY": 438
+    },
+    {
+        "name": "INU",
+        "type": "square",
+        "color": "#dc6b0c",
+        "size": 13,
+        "positionX": 146,
+        "positionY": 172
+    },
+    {
+        "name": "MQK",
+        "type": "triangle",
+        "color": "#05b158",
+        "size": 9,
+        "positionX": 84,
+        "positionY": 86
+    },
+    {
+        "name": "OGE",
+        "type": "triangle",
+        "color": "#5c737d",
+        "size": 9,
+        "positionX": 360,
+        "positionY": 635
+    },
+    {
+        "name": "KKN",
+        "type": "triangle",
+        "color": "#d0e7f9",
+        "size": 6,
+        "positionX": 178,
+        "positionY": 73
+    },
+    {
+        "name": "MJT",
+        "type": "triangle",
+        "color": "#e2d3e5",
+        "size": 6,
+        "positionX": 630,
+        "positionY": 146
+    },
+    {
+        "name": "JNS",
+        "type": "circle",
+        "color": "#22b2ff",
+        "size": 10,
+        "positionX": 120,
+        "positionY": 53
+    },
+    {
+        "name": "FCO",
+        "type": "square",
+        "color": "#bdd676",
+        "size": 12,
+        "positionX": 555,
+        "positionY": 200
+    },
+    {
+        "name": "CIK",
+        "type": "circle",
+        "color": "#135fd3",
+        "size": 7,
+        "positionX": 198,
+        "positionY": 10
+    },
+    {
+        "name": "ICL",
+        "type": "triangle",
+        "color": "#072994",
+        "size": 7,
+        "positionX": 187,
+        "positionY": 268
+    },
+    {
+        "name": "MXY",
+        "type": "square",
+        "color": "#4236e6",
+        "size": 11,
+        "positionX": 349,
+        "positionY": 436
+    },
+    {
+        "name": "ILK",
+        "type": "triangle",
+        "color": "#fa0356",
+        "size": 6,
+        "positionX": 447,
+        "positionY": 174
+    },
+    {
+        "name": "KUE",
+        "type": "triangle",
+        "color": "#a1ec4b",
+        "size": 12,
+        "positionX": 211,
+        "positionY": 414
+    },
+    {
+        "name": "YOL",
+        "type": "triangle",
+        "color": "#3f7b3d",
+        "size": 15,
+        "positionX": 548,
+        "positionY": 468
+    },
+    {
+        "name": "KBO",
+        "type": "square",
+        "color": "#0519a1",
+        "size": 5,
+        "positionX": 710,
+        "positionY": 26
+    },
+    {
+        "name": "KTI",
+        "type": "circle",
+        "color": "#788695",
+        "size": 8,
+        "positionX": 97,
+        "positionY": 620
+    },
+    {
+        "name": "CKU",
+        "type": "square",
+        "color": "#109121",
+        "size": 7,
+        "positionX": 275,
+        "positionY": 737
+    },
+    {
+        "name": "TPI",
+        "type": "circle",
+        "color": "#42c63d",
+        "size": 12,
+        "positionX": 776,
+        "positionY": 796
+    },
+    {
+        "name": "DKR",
+        "type": "triangle",
+        "color": "#35bed3",
+        "size": 15,
+        "positionX": 220,
+        "positionY": 53
+    },
+    {
+        "name": "AXA",
+        "type": "circle",
+        "color": "#90253a",
+        "size": 7,
+        "positionX": 29,
+        "positionY": 741
+    },
+    {
+        "name": "ART",
+        "type": "circle",
+        "color": "#65623e",
+        "size": 13,
+        "positionX": 523,
+        "positionY": 92
+    },
+    {
+        "name": "0",
+        "type": "square",
+        "color": "#0ac788",
+        "size": 6,
+        "positionX": 737,
+        "positionY": 471
+    },
+    {
+        "name": "MQT",
+        "type": "square",
+        "color": "#674958",
+        "size": 9,
+        "positionX": 24,
+        "positionY": 327
+    },
+    {
+        "name": "GLA",
+        "type": "triangle",
+        "color": "#7559bf",
+        "size": 7,
+        "positionX": 534,
+        "positionY": 775
+    },
+    {
+        "name": "KGU",
+        "type": "square",
+        "color": "#d0e518",
+        "size": 7,
+        "positionX": 581,
+        "positionY": 18
+    },
+    {
+        "name": "FBM",
+        "type": "circle",
+        "color": "#d22b4c",
+        "size": 6,
+        "positionX": 420,
+        "positionY": 215
+    },
+    {
+        "name": "TOD",
+        "type": "triangle",
+        "color": "#24e6e4",
+        "size": 13,
+        "positionX": 460,
+        "positionY": 241
+    },
+    {
+        "name": "SJS",
+        "type": "circle",
+        "color": "#d98272",
+        "size": 5,
+        "positionX": 370,
+        "positionY": 130
+    },
+    {
+        "name": "SCD",
+        "type": "circle",
+        "color": "#b7f2ba",
+        "size": 6,
+        "positionX": 620,
+        "positionY": 228
+    },
+    {
+        "name": "OYP",
+        "type": "triangle",
+        "color": "#407dd6",
+        "size": 5,
+        "positionX": 127,
+        "positionY": 689
+    },
+    {
+        "name": "DPU",
+        "type": "triangle",
+        "color": "#8c84a5",
+        "size": 5,
+        "positionX": 308,
+        "positionY": 151
+    },
+    {
+        "name": "TRH",
+        "type": "square",
+        "color": "#29e290",
+        "size": 15,
+        "positionX": 183,
+        "positionY": 90
+    },
+    {
+        "name": "ABK",
+        "type": "square",
+        "color": "#f9b43b",
+        "size": 8,
+        "positionX": 580,
+        "positionY": 185
+    },
+    {
+        "name": "SMW",
+        "type": "triangle",
+        "color": "#a28b7e",
+        "size": 12,
+        "positionX": 509,
+        "positionY": 45
+    },
+    {
+        "name": "BKD",
+        "type": "triangle",
+        "color": "#fd2875",
+        "size": 15,
+        "positionX": 692,
+        "positionY": 249
+    },
+    {
+        "name": "SOV",
+        "type": "square",
+        "color": "#d32c1d",
+        "size": 6,
+        "positionX": 144,
+        "positionY": 542
+    },
+    {
+        "name": "FUK",
+        "type": "triangle",
+        "color": "#237c7a",
+        "size": 15,
+        "positionX": 12,
+        "positionY": 15
+    },
+    {
+        "name": "WTK",
+        "type": "square",
+        "color": "#a140e3",
+        "size": 11,
+        "positionX": 61,
+        "positionY": 649
+    },
+    {
+        "name": "PGK",
+        "type": "square",
+        "color": "#fb2e0d",
+        "size": 6,
+        "positionX": 41,
+        "positionY": 465
+    },
+    {
+        "name": "UDD",
+        "type": "triangle",
+        "color": "#533fd0",
+        "size": 9,
+        "positionX": 481,
+        "positionY": 470
+    },
+    {
+        "name": "RHV",
+        "type": "triangle",
+        "color": "#6840f4",
+        "size": 8,
+        "positionX": 800,
+        "positionY": 427
+    },
+    {
+        "name": "ZTB",
+        "type": "triangle",
+        "color": "#62ec50",
+        "size": 5,
+        "positionX": 594,
+        "positionY": 168
+    },
+    {
+        "name": "KEG",
+        "type": "triangle",
+        "color": "#ce3c1e",
+        "size": 10,
+        "positionX": 290,
+        "positionY": 455
+    },
+    {
+        "name": "ENY",
+        "type": "triangle",
+        "color": "#787f39",
+        "size": 5,
+        "positionX": 394,
+        "positionY": 179
+    },
+    {
+        "name": "KST",
+        "type": "circle",
+        "color": "#7b2194",
+        "size": 10,
+        "positionX": 14,
+        "positionY": 49
+    },
+    {
+        "name": "YYD",
+        "type": "triangle",
+        "color": "#c16656",
+        "size": 12,
+        "positionX": 691,
+        "positionY": 578
+    },
+    {
+        "name": "ORB",
+        "type": "square",
+        "color": "#853eea",
+        "size": 6,
+        "positionX": 203,
+        "positionY": 359
+    },
+    {
+        "name": "YXS",
+        "type": "square",
+        "color": "#499953",
+        "size": 9,
+        "positionX": 650,
+        "positionY": 790
+    },
+    {
+        "name": "YCO",
+        "type": "square",
+        "color": "#27363f",
+        "size": 8,
+        "positionX": 796,
+        "positionY": 619
+    },
+    {
+        "name": "UTG",
+        "type": "circle",
+        "color": "#f6dd28",
+        "size": 15,
+        "positionX": 757,
+        "positionY": 207
+    },
+    {
+        "name": "KLU",
+        "type": "circle",
+        "color": "#0267ce",
+        "size": 8,
+        "positionX": 276,
+        "positionY": 573
+    },
+    {
+        "name": "UTA",
+        "type": "square",
+        "color": "#226c69",
+        "size": 15,
+        "positionX": 97,
+        "positionY": 469
+    },
+    {
+        "name": "JIK",
+        "type": "circle",
+        "color": "#3e0864",
+        "size": 13,
+        "positionX": 390,
+        "positionY": 387
+    },
+    {
+        "name": "AAM",
+        "type": "square",
+        "color": "#3d7217",
+        "size": 14,
+        "positionX": 490,
+        "positionY": 632
+    },
+    {
+        "name": "CPG",
+        "type": "circle",
+        "color": "#7f8f4b",
+        "size": 14,
+        "positionX": 593,
+        "positionY": 676
+    },
+    {
+        "name": "PMP",
+        "type": "triangle",
+        "color": "#49be95",
+        "size": 6,
+        "positionX": 660,
+        "positionY": 450
+    },
+    {
+        "name": "PSH",
+        "type": "square",
+        "color": "#399b7d",
+        "size": 11,
+        "positionX": 609,
+        "positionY": 552
+    },
+    {
+        "name": "JPA",
+        "type": "triangle",
+        "color": "#5d15ca",
+        "size": 9,
+        "positionX": 612,
+        "positionY": 138
+    },
+    {
+        "name": "MSX",
+        "type": "circle",
+        "color": "#e00759",
+        "size": 12,
+        "positionX": 549,
+        "positionY": 173
+    },
+    {
+        "name": "PVI",
+        "type": "triangle",
+        "color": "#31a952",
+        "size": 7,
+        "positionX": 55,
+        "positionY": 180
+    },
+    {
+        "name": "XMY",
+        "type": "triangle",
+        "color": "#92781b",
+        "size": 13,
+        "positionX": 771,
+        "positionY": 501
+    },
+    {
+        "name": "ABA",
+        "type": "triangle",
+        "color": "#738c9d",
+        "size": 8,
+        "positionX": 62,
+        "positionY": 411
+    },
+    {
+        "name": "OLD",
+        "type": "circle",
+        "color": "#cac894",
+        "size": 8,
+        "positionX": 541,
+        "positionY": 506
+    },
+    {
+        "name": "WSZ",
+        "type": "square",
+        "color": "#94df8a",
+        "size": 6,
+        "positionX": 668,
+        "positionY": 635
+    },
+    {
+        "name": "UGS",
+        "type": "circle",
+        "color": "#d56e52",
+        "size": 11,
+        "positionX": 793,
+        "positionY": 72
+    },
+    {
+        "name": "FEG",
+        "type": "circle",
+        "color": "#67919a",
+        "size": 10,
+        "positionX": 170,
+        "positionY": 29
+    },
+    {
+        "name": "RSX",
+        "type": "triangle",
+        "color": "#1ea4ae",
+        "size": 12,
+        "positionX": 726,
+        "positionY": 600
+    },
+    {
+        "name": "LOP",
+        "type": "square",
+        "color": "#124f8f",
+        "size": 5,
+        "positionX": 687,
+        "positionY": 30
+    },
+    {
+        "name": "CRH",
+        "type": "square",
+        "color": "#9fe7ec",
+        "size": 6,
+        "positionX": 698,
+        "positionY": 472
+    },
+    {
+        "name": "WWI",
+        "type": "square",
+        "color": "#639221",
+        "size": 8,
+        "positionX": 469,
+        "positionY": 654
+    },
+    {
+        "name": "KSS",
+        "type": "square",
+        "color": "#c02326",
+        "size": 15,
+        "positionX": 723,
+        "positionY": 134
+    },
+    {
+        "name": "YVZ",
+        "type": "square",
+        "color": "#70f0bd",
+        "size": 12,
+        "positionX": 133,
+        "positionY": 640
+    },
+    {
+        "name": "AQP",
+        "type": "circle",
+        "color": "#0ef53d",
+        "size": 14,
+        "positionX": 537,
+        "positionY": 474
+    },
+    {
+        "name": "0",
+        "type": "circle",
+        "color": "#2d8ccd",
+        "size": 11,
+        "positionX": 2,
+        "positionY": 144
+    },
+    {
+        "name": "GWV",
+        "type": "triangle",
+        "color": "#7d46d4",
+        "size": 12,
+        "positionX": 548,
+        "positionY": 271
+    },
+    {
+        "name": "IEG",
+        "type": "triangle",
+        "color": "#2f1bab",
+        "size": 13,
+        "positionX": 283,
+        "positionY": 490
+    },
+    {
+        "name": "MAO",
+        "type": "square",
+        "color": "#a01483",
+        "size": 7,
+        "positionX": 671,
+        "positionY": 177
+    },
+    {
+        "name": "TFI",
+        "type": "triangle",
+        "color": "#c010cc",
+        "size": 8,
+        "positionX": 376,
+        "positionY": 113
+    },
+    {
+        "name": "VYD",
+        "type": "triangle",
+        "color": "#bebd2b",
+        "size": 10,
+        "positionX": 534,
+        "positionY": 542
+    },
+    {
+        "name": "ATA",
+        "type": "circle",
+        "color": "#e1b880",
+        "size": 7,
+        "positionX": 389,
+        "positionY": 598
+    },
+    {
+        "name": "MRE",
+        "type": "triangle",
+        "color": "#95f3d7",
+        "size": 14,
+        "positionX": 597,
+        "positionY": 745
+    },
+    {
+        "name": "KEJ",
+        "type": "triangle",
+        "color": "#01cc8a",
+        "size": 5,
+        "positionX": 19,
+        "positionY": 168
+    },
+    {
+        "name": "OMO",
+        "type": "square",
+        "color": "#0069ae",
+        "size": 13,
+        "positionX": 130,
+        "positionY": 484
+    },
+    {
+        "name": "MZH",
+        "type": "square",
+        "color": "#4a4053",
+        "size": 9,
+        "positionX": 321,
+        "positionY": 511
+    },
+    {
+        "name": "RUF",
+        "type": "square",
+        "color": "#4a7f4f",
+        "size": 7,
+        "positionX": 601,
+        "positionY": 208
+    },
+    {
+        "name": "TIZ",
+        "type": "square",
+        "color": "#583c54",
+        "size": 9,
+        "positionX": 437,
+        "positionY": 464
+    },
+    {
+        "name": "TII",
+        "type": "triangle",
+        "color": "#88e5ec",
+        "size": 15,
+        "positionX": 45,
+        "positionY": 427
+    },
+    {
+        "name": "MZE",
+        "type": "circle",
+        "color": "#a9035b",
+        "size": 9,
+        "positionX": 699,
+        "positionY": 663
+    },
+    {
+        "name": "REG",
+        "type": "triangle",
+        "color": "#68f949",
+        "size": 8,
+        "positionX": 93,
+        "positionY": 6
+    },
+    {
+        "name": "RTG",
+        "type": "square",
+        "color": "#e726e3",
+        "size": 13,
+        "positionX": 254,
+        "positionY": 760
+    },
+    {
+        "name": "VSF",
+        "type": "circle",
+        "color": "#5bdbfc",
+        "size": 7,
+        "positionX": 567,
+        "positionY": 525
+    },
+    {
+        "name": "PPY",
+        "type": "triangle",
+        "color": "#3f5b93",
+        "size": 12,
+        "positionX": 412,
+        "positionY": 212
+    },
+    {
+        "name": "JAX",
+        "type": "triangle",
+        "color": "#dfeeb4",
+        "size": 10,
+        "positionX": 157,
+        "positionY": 419
+    },
+    {
+        "name": "MZD",
+        "type": "square",
+        "color": "#ebedba",
+        "size": 9,
+        "positionX": 214,
+        "positionY": 548
+    },
+    {
+        "name": "NCE",
+        "type": "triangle",
+        "color": "#3a959f",
+        "size": 5,
+        "positionX": 525,
+        "positionY": 615
+    },
+    {
+        "name": "DUE",
+        "type": "circle",
+        "color": "#ccf9d7",
+        "size": 13,
+        "positionX": 771,
+        "positionY": 720
+    },
+    {
+        "name": "SDB",
+        "type": "triangle",
+        "color": "#c1cca1",
+        "size": 15,
+        "positionX": 228,
+        "positionY": 396
+    },
+    {
+        "name": "MSH",
+        "type": "square",
+        "color": "#fc7bde",
+        "size": 10,
+        "positionX": 35,
+        "positionY": 262
+    },
+    {
+        "name": "CGZ",
+        "type": "square",
+        "color": "#63e4fe",
+        "size": 8,
+        "positionX": 336,
+        "positionY": 352
+    },
+    {
+        "name": "IQQ",
+        "type": "triangle",
+        "color": "#a8d09d",
+        "size": 12,
+        "positionX": 206,
+        "positionY": 593
+    },
+    {
+        "name": "XIL",
+        "type": "square",
+        "color": "#e88068",
+        "size": 10,
+        "positionX": 274,
+        "positionY": 209
+    },
+    {
+        "name": "SFF",
+        "type": "square",
+        "color": "#153e38",
+        "size": 10,
+        "positionX": 160,
+        "positionY": 357
+    },
+    {
+        "name": "FYJ",
+        "type": "triangle",
+        "color": "#52cd4f",
+        "size": 15,
+        "positionX": 537,
+        "positionY": 109
+    },
+    {
+        "name": "PEL",
+        "type": "triangle",
+        "color": "#cd7911",
+        "size": 12,
+        "positionX": 487,
+        "positionY": 708
+    },
+    {
+        "name": "TCB",
+        "type": "triangle",
+        "color": "#48d473",
+        "size": 8,
+        "positionX": 223,
+        "positionY": 192
+    },
+    {
+        "name": "RQO",
+        "type": "square",
+        "color": "#bc8d3b",
+        "size": 12,
+        "positionX": 229,
+        "positionY": 460
+    },
+    {
+        "name": "CSD",
+        "type": "triangle",
+        "color": "#cbdb2a",
+        "size": 9,
+        "positionX": 177,
+        "positionY": 782
+    },
+    {
+        "name": "MKL",
+        "type": "triangle",
+        "color": "#565ecc",
+        "size": 15,
+        "positionX": 646,
+        "positionY": 382
+    },
+    {
+        "name": "QCO",
+        "type": "square",
+        "color": "#ca53a1",
+        "size": 14,
+        "positionX": 2,
+        "positionY": 654
+    },
+    {
+        "name": "TOY",
+        "type": "circle",
+        "color": "#107e08",
+        "size": 7,
+        "positionX": 644,
+        "positionY": 788
+    },
+    {
+        "name": "MUI",
+        "type": "triangle",
+        "color": "#743a6d",
+        "size": 14,
+        "positionX": 532,
+        "positionY": 196
+    },
+    {
+        "name": "LIY",
+        "type": "circle",
+        "color": "#c90d47",
+        "size": 6,
+        "positionX": 554,
+        "positionY": 576
+    },
+    {
+        "name": "PGD",
+        "type": "triangle",
+        "color": "#eecde9",
+        "size": 9,
+        "positionX": 772,
+        "positionY": 23
+    },
+    {
+        "name": "EED",
+        "type": "square",
+        "color": "#f9bf9f",
+        "size": 12,
+        "positionX": 654,
+        "positionY": 273
+    },
+    {
+        "name": "CWP",
+        "type": "square",
+        "color": "#b45f95",
+        "size": 12,
+        "positionX": 112,
+        "positionY": 568
+    },
+    {
+        "name": "CTN",
+        "type": "triangle",
+        "color": "#bd6047",
+        "size": 13,
+        "positionX": 622,
+        "positionY": 555
+    },
+    {
+        "name": "IPE",
+        "type": "triangle",
+        "color": "#039021",
+        "size": 11,
+        "positionX": 515,
+        "positionY": 391
+    },
+    {
+        "name": "XYE",
+        "type": "triangle",
+        "color": "#67cf61",
+        "size": 11,
+        "positionX": 598,
+        "positionY": 433
+    },
+    {
+        "name": "ODS",
+        "type": "square",
+        "color": "#2f51a5",
+        "size": 15,
+        "positionX": 798,
+        "positionY": 33
+    },
+    {
+        "name": "SNN",
+        "type": "triangle",
+        "color": "#4fab88",
+        "size": 14,
+        "positionX": 312,
+        "positionY": 252
+    },
+    {
+        "name": "AHO",
+        "type": "circle",
+        "color": "#464924",
+        "size": 11,
+        "positionX": 316,
+        "positionY": 58
+    },
+    {
+        "name": "SML",
+        "type": "square",
+        "color": "#6baf34",
+        "size": 8,
+        "positionX": 382,
+        "positionY": 580
+    },
+    {
+        "name": "MOA",
+        "type": "triangle",
+        "color": "#21fb86",
+        "size": 11,
+        "positionX": 633,
+        "positionY": 313
+    },
+    {
+        "name": "CNI",
+        "type": "square",
+        "color": "#ed9491",
+        "size": 11,
+        "positionX": 343,
+        "positionY": 292
+    },
+    {
+        "name": "GLN",
+        "type": "square",
+        "color": "#9afd6d",
+        "size": 6,
+        "positionX": 137,
+        "positionY": 656
+    },
+    {
+        "name": "ARS",
+        "type": "square",
+        "color": "#67047d",
+        "size": 15,
+        "positionX": 248,
+        "positionY": 692
+    },
+    {
+        "name": "MGQ",
+        "type": "triangle",
+        "color": "#84fa5b",
+        "size": 7,
+        "positionX": 240,
+        "positionY": 496
+    },
+    {
+        "name": "DAU",
+        "type": "triangle",
+        "color": "#a73ce5",
+        "size": 14,
+        "positionX": 558,
+        "positionY": 426
+    },
+    {
+        "name": "NAP",
+        "type": "triangle",
+        "color": "#6e7a34",
+        "size": 5,
+        "positionX": 598,
+        "positionY": 660
+    },
+    {
+        "name": "GNM",
+        "type": "triangle",
+        "color": "#55d55b",
+        "size": 6,
+        "positionX": 739,
+        "positionY": 80
+    },
+    {
+        "name": "ALJ",
+        "type": "circle",
+        "color": "#ab26e0",
+        "size": 5,
+        "positionX": 649,
+        "positionY": 362
+    },
+    {
+        "name": "ZVG",
+        "type": "square",
+        "color": "#59e9da",
+        "size": 8,
+        "positionX": 504,
+        "positionY": 499
+    },
+    {
+        "name": "KPA",
+        "type": "square",
+        "color": "#4137ff",
+        "size": 5,
+        "positionX": 186,
+        "positionY": 265
+    },
+    {
+        "name": "LGE",
+        "type": "circle",
+        "color": "#06e42d",
+        "size": 6,
+        "positionX": 577,
+        "positionY": 494
+    },
+    {
+        "name": "NKB",
+        "type": "square",
+        "color": "#68b8ce",
+        "size": 5,
+        "positionX": 398,
+        "positionY": 85
+    },
+    {
+        "name": "LOB",
+        "type": "circle",
+        "color": "#d5682b",
+        "size": 13,
+        "positionX": 465,
+        "positionY": 454
+    },
+    {
+        "name": "GCW",
+        "type": "triangle",
+        "color": "#92e63a",
+        "size": 6,
+        "positionX": 272,
+        "positionY": 684
+    },
+    {
+        "name": "TAT",
+        "type": "triangle",
+        "color": "#a8e88d",
+        "size": 7,
+        "positionX": 657,
+        "positionY": 718
+    },
+    {
+        "name": "YAV",
+        "type": "triangle",
+        "color": "#09c2bc",
+        "size": 7,
+        "positionX": 636,
+        "positionY": 520
+    },
+    {
+        "name": "ILX",
+        "type": "circle",
+        "color": "#9fd3b1",
+        "size": 12,
+        "positionX": 523,
+        "positionY": 580
+    },
+    {
+        "name": "DUG",
+        "type": "square",
+        "color": "#7f9229",
+        "size": 7,
+        "positionX": 184,
+        "positionY": 490
+    },
+    {
+        "name": "MOQ",
+        "type": "circle",
+        "color": "#fb2faf",
+        "size": 8,
+        "positionX": 82,
+        "positionY": 699
+    },
+    {
+        "name": "BZH",
+        "type": "triangle",
+        "color": "#9faac1",
+        "size": 15,
+        "positionX": 353,
+        "positionY": 414
+    },
+    {
+        "name": "MLB",
+        "type": "square",
+        "color": "#b0b2d4",
+        "size": 6,
+        "positionX": 92,
+        "positionY": 747
+    },
+    {
+        "name": "MPZ",
+        "type": "triangle",
+        "color": "#5d4730",
+        "size": 8,
+        "positionX": 731,
+        "positionY": 110
+    },
+    {
+        "name": "NQA",
+        "type": "triangle",
+        "color": "#8045d0",
+        "size": 10,
+        "positionX": 515,
+        "positionY": 467
+    },
+    {
+        "name": "SFZ",
+        "type": "circle",
+        "color": "#b723b5",
+        "size": 5,
+        "positionX": 682,
+        "positionY": 363
+    },
+    {
+        "name": "MNO",
+        "type": "circle",
+        "color": "#e01793",
+        "size": 14,
+        "positionX": 360,
+        "positionY": 472
+    },
+    {
+        "name": "PKW",
+        "type": "triangle",
+        "color": "#192859",
+        "size": 10,
+        "positionX": 675,
+        "positionY": 348
+    },
+    {
+        "name": "DHA",
+        "type": "triangle",
+        "color": "#3044a8",
+        "size": 6,
+        "positionX": 625,
+        "positionY": 555
+    },
+    {
+        "name": "KKD",
+        "type": "circle",
+        "color": "#a4f988",
+        "size": 7,
+        "positionX": 210,
+        "positionY": 760
+    },
+    {
+        "name": "GAC",
+        "type": "triangle",
+        "color": "#9e608f",
+        "size": 15,
+        "positionX": 613,
+        "positionY": 638
+    },
+    {
+        "name": "CDU",
+        "type": "square",
+        "color": "#b96232",
+        "size": 5,
+        "positionX": 798,
+        "positionY": 569
+    },
+    {
+        "name": "HTV",
+        "type": "square",
+        "color": "#c4d87b",
+        "size": 6,
+        "positionX": 318,
+        "positionY": 745
+    },
+    {
+        "name": "BKL",
+        "type": "square",
+        "color": "#33f0a8",
+        "size": 7,
+        "positionX": 236,
+        "positionY": 14
+    },
+    {
+        "name": "YNM",
+        "type": "square",
+        "color": "#60458e",
+        "size": 9,
+        "positionX": 722,
+        "positionY": 366
+    },
+    {
+        "name": "MQA",
+        "type": "square",
+        "color": "#fa77ef",
+        "size": 14,
+        "positionX": 529,
+        "positionY": 478
+    },
+    {
+        "name": "ROR",
+        "type": "circle",
+        "color": "#2cc97c",
+        "size": 7,
+        "positionX": 74,
+        "positionY": 486
+    },
+    {
+        "name": "MSU",
+        "type": "square",
+        "color": "#d8eb20",
+        "size": 8,
+        "positionX": 202,
+        "positionY": 203
+    },
+    {
+        "name": "SCK",
+        "type": "triangle",
+        "color": "#6f565d",
+        "size": 13,
+        "positionX": 61,
+        "positionY": 733
+    },
+    {
+        "name": "PKB",
+        "type": "triangle",
+        "color": "#bda16c",
+        "size": 6,
+        "positionX": 298,
+        "positionY": 517
+    },
+    {
+        "name": "AXG",
+        "type": "triangle",
+        "color": "#b505b9",
+        "size": 7,
+        "positionX": 548,
+        "positionY": 551
+    },
+    {
+        "name": "ABJ",
+        "type": "triangle",
+        "color": "#d04487",
+        "size": 10,
+        "positionX": 795,
+        "positionY": 484
+    },
+    {
+        "name": "IRJ",
+        "type": "square",
+        "color": "#ef745e",
+        "size": 9,
+        "positionX": 726,
+        "positionY": 101
+    },
+    {
+        "name": "VDS",
+        "type": "triangle",
+        "color": "#97140e",
+        "size": 12,
+        "positionX": 706,
+        "positionY": 227
+    },
+    {
+        "name": "PNN",
+        "type": "square",
+        "color": "#0c8d9e",
+        "size": 12,
+        "positionX": 235,
+        "positionY": 779
+    },
+    {
+        "name": "KPV",
+        "type": "circle",
+        "color": "#1cd244",
+        "size": 11,
+        "positionX": 575,
+        "positionY": 508
+    },
+    {
+        "name": "AGF",
+        "type": "circle",
+        "color": "#e011ab",
+        "size": 8,
+        "positionX": 482,
+        "positionY": 508
+    },
+    {
+        "name": "PHQ",
+        "type": "square",
+        "color": "#6b86ac",
+        "size": 5,
+        "positionX": 748,
+        "positionY": 10
+    },
+    {
+        "name": "TNU",
+        "type": "triangle",
+        "color": "#e4893d",
+        "size": 14,
+        "positionX": 398,
+        "positionY": 428
+    },
+    {
+        "name": "AZT",
+        "type": "square",
+        "color": "#c4fee4",
+        "size": 5,
+        "positionX": 348,
+        "positionY": 182
+    },
+    {
+        "name": "LUL",
+        "type": "circle",
+        "color": "#c99277",
+        "size": 11,
+        "positionX": 414,
+        "positionY": 689
+    },
+    {
+        "name": "FSM",
+        "type": "square",
+        "color": "#13b36e",
+        "size": 13,
+        "positionX": 19,
+        "positionY": 260
+    },
+    {
+        "name": "TDP",
+        "type": "square",
+        "color": "#ebff5d",
+        "size": 7,
+        "positionX": 198,
+        "positionY": 702
+    },
+    {
+        "name": "DKS",
+        "type": "triangle",
+        "color": "#d5c09c",
+        "size": 8,
+        "positionX": 451,
+        "positionY": 295
+    },
+    {
+        "name": "BZV",
+        "type": "square",
+        "color": "#6c59fd",
+        "size": 6,
+        "positionX": 329,
+        "positionY": 218
+    },
+    {
+        "name": "FCO",
+        "type": "triangle",
+        "color": "#89c65b",
+        "size": 5,
+        "positionX": 354,
+        "positionY": 513
+    },
+    {
+        "name": "BXX",
+        "type": "square",
+        "color": "#c8ef27",
+        "size": 14,
+        "positionX": 799,
+        "positionY": 622
+    },
+    {
+        "name": "UUS",
+        "type": "circle",
+        "color": "#507eef",
+        "size": 15,
+        "positionX": 78,
+        "positionY": 38
+    },
+    {
+        "name": "ZFN",
+        "type": "triangle",
+        "color": "#d993b4",
+        "size": 10,
+        "positionX": 583,
+        "positionY": 529
+    },
+    {
+        "name": "FCN",
+        "type": "square",
+        "color": "#81de5a",
+        "size": 13,
+        "positionX": 645,
+        "positionY": 671
+    },
+    {
+        "name": "MUJ",
+        "type": "circle",
+        "color": "#a9a2b6",
+        "size": 6,
+        "positionX": 671,
+        "positionY": 339
+    },
+    {
+        "name": "RGR",
+        "type": "circle",
+        "color": "#888144",
+        "size": 12,
+        "positionX": 391,
+        "positionY": 622
+    },
+    {
+        "name": "IXK",
+        "type": "square",
+        "color": "#853f44",
+        "size": 6,
+        "positionX": 644,
+        "positionY": 794
+    },
+    {
+        "name": "SFZ",
+        "type": "triangle",
+        "color": "#0be8c2",
+        "size": 8,
+        "positionX": 26,
+        "positionY": 436
+    },
+    {
+        "name": "VAN",
+        "type": "triangle",
+        "color": "#fa0916",
+        "size": 10,
+        "positionX": 73,
+        "positionY": 567
+    },
+    {
+        "name": "FSS",
+        "type": "square",
+        "color": "#0be2ed",
+        "size": 5,
+        "positionX": 656,
+        "positionY": 591
+    },
+    {
+        "name": "NBL",
+        "type": "circle",
+        "color": "#007ec2",
+        "size": 10,
+        "positionX": 582,
+        "positionY": 303
+    },
+    {
+        "name": "BPF",
+        "type": "square",
+        "color": "#3a89f3",
+        "size": 9,
+        "positionX": 758,
+        "positionY": 639
+    },
+    {
+        "name": "BMK",
+        "type": "triangle",
+        "color": "#2d8db1",
+        "size": 13,
+        "positionX": 627,
+        "positionY": 487
+    },
+    {
+        "name": "OGS",
+        "type": "triangle",
+        "color": "#71ece7",
+        "size": 10,
+        "positionX": 177,
+        "positionY": 82
+    },
+    {
+        "name": "KMM",
+        "type": "circle",
+        "color": "#a1e26a",
+        "size": 12,
+        "positionX": 490,
+        "positionY": 767
+    },
+    {
+        "name": "EGH",
+        "type": "circle",
+        "color": "#f4bd78",
+        "size": 8,
+        "positionX": 225,
+        "positionY": 311
+    },
+    {
+        "name": "GMI",
+        "type": "circle",
+        "color": "#80d14f",
+        "size": 5,
+        "positionX": 37,
+        "positionY": 688
+    },
+    {
+        "name": "LIA",
+        "type": "square",
+        "color": "#500c73",
+        "size": 14,
+        "positionX": 390,
+        "positionY": 415
+    },
+    {
+        "name": "BLW",
+        "type": "circle",
+        "color": "#336eb3",
+        "size": 11,
+        "positionX": 106,
+        "positionY": 195
+    },
+    {
+        "name": "TBY",
+        "type": "circle",
+        "color": "#8af6e7",
+        "size": 13,
+        "positionX": 152,
+        "positionY": 43
+    }
+]

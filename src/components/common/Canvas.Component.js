@@ -18,9 +18,10 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
 
             case 'triangle':
                 context.beginPath();
-                context.moveTo(75, 50);
-                context.lineTo(100, 75);
-                context.lineTo(100, 25);
+                context.moveTo(0, 50)
+                context.lineTo(50, 0)
+                context.lineTo(100, 50)
+                context.lineTo(0, 50)
                 context.fill();
                 break;
             case 'arc':
