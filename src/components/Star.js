@@ -37,23 +37,60 @@ export default function Star() {
             console.log(storedStarObj)
             
 
+        
         }
+
+        const [handleTriangleOpacity, setHandleTriangleOpacity] = useState("1")
+        const [handleCircleOpacity, setHandleCircleOpacity] = useState("1")
+        const [handleSquareOpacity, setHandleSquareOpacity] = useState("1")
+
+        let circleClick, squareClick, triangleClick;
+    
+        console.log(handleCircleOpacity)
+
         const starNames = storedStarObj.map((name, key) => {
-            if(inputValue < NumberOfStars)
-            return <StarCard key={key} storedData={name}  />
-            else return null
-        })
+             circleClick = () => {
+                console.log("click")
+                  handleCircleOpacity === "1" ? setHandleCircleOpacity(".5") : setHandleCircleOpacity("1")
+                }
+            triangleClick = () => {
 
-
+                handleTriangleOpacity === "1" ? setHandleTriangleOpacity("0") : setHandleTriangleOpacity("1")
             
+
+                console.log(handleTriangleOpacity)
+            }
+            squareClick = () => {
+                handleSquareOpacity === "1" ? setHandleSquareOpacity(".5") : setHandleSquareOpacity("1")
+
+            }
+
+
+            if(inputValue < NumberOfStars){
+                            return  <StarCard 
+                                        key={key} 
+                                        storedData={name} 
+                                        squareOpacity={handleSquareOpacity}
+                                        triangleOpacity = {handleTriangleOpacity}
+                                        circleOpacity = {handleCircleOpacity}
+                                         />
+
+            }
+            else return null
+
+         
+
+        
+        }
+        )
+
+
 
 
 
 
   return (
     <div className='card'>
-    <h1> Stars from Context API and Hooks</h1>
-    <h2>Welcome to Webpage galaxy. There are {NumberOfStars} known in our current galaxy.</h2>
     
     <Input 
         placeholder="N"
@@ -70,10 +107,30 @@ export default function Star() {
     {errorMessage}
     </h3>   
 
-    <div className='star-card'>
-    {starNames}
+    <div className='star-card' >
+
+  {starNames}
+        
+    </div>
+   
+
+    <div>
+    <div className='button'>
+        <button
+         onClick={circleClick}
+        > Circle</button>
+        <button
+        onClick={triangleClick}> Triangle</button>
+        <button
+        onClick={squareClick}> Square</button>
+
+    </div>
     </div>
 
+
+
+
+    
     
  
 

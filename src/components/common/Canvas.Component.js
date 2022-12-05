@@ -1,63 +1,66 @@
 import React, { useEffect, useRef } from 'react'
 // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
-export default function Canvas({ draw, color, height, width, handleCanvasClick }) {
+export default function Canvas(
+            { draw, color, height, width, handleCanvasClick, squareOpacity, triangleOpacity, circleOpacity }  
+            ) {
 
     const canvas = useRef()
 
 
-    const createCanvas = (context) => {
-        context.fillStyle = color
-        switch (draw) {
-            case 'square':
-                context.fillRect(25, 25, 100, 100)
-                break;
-
-            case 'rectangle':
-                context.fillRect(25, 25, 125, 100)
-                break;
-
-            case 'triangle':
-                context.beginPath();
-                context.moveTo(0, 50)
-                context.lineTo(50, 0)
-                context.lineTo(100, 50)
-                context.lineTo(0, 50)
-                context.fill();
-                break;
-            case 'arc':
-
-                context.beginPath();
-                context.arc(0, 5, 25, 35, 2 * Math.PI);
-                context.fill();
-
-                break
    
-            case 'circle':
-                context.arc(50, 35, 25, 0, 4 * Math.PI);
-                context.fill()
-                break
-
-
-            default:
-                // circle
-                context.arc(100, 35, 25, 0, 2 * Math.PI);
-                context.fill()
-                break
-
-
-
-
-        }
-
-    }
+    let canvasStyle
 
     useEffect(() => {
         const context = canvas.current.getContext('2d')
+        
 
-        createCanvas(context)
+        
+
+        console.log("rendered")
+
+        const createMyCanvas = (context) => {
+            context.fillStyle = color
+            switch (draw) {
+                case 'square':
+                    context.fillRect(25, 25, 100, 100)
+                    context.globalAlpha = squareOpacity
+                    break;
+    
+    
+                case 'triangle':
+                    context.globalAlpha = triangleOpacity
+                    context.beginPath();
+                    context.moveTo(0, 50)
+                    context.lineTo(50, 0)
+                    context.lineTo(100, 50)
+                    context.lineTo(0, 50)
+                    context.fill();
+                    console.log(triangleOpacity, "inside Switch")
+    
+                    break;
+                
+       
+                case 'circle':
+                    context.globalAlpha = circleOpacity
+                    context.arc(50, 35, 25, 0, 4 * Math.PI);
+                    context.fill()
+    
+                    break
+    
+    
+                default:
+    
+    
+            }
+    
+        }
+
+        createMyCanvas(context)
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
      
 
-    }, [])
+    }, [squareOpacity, triangleOpacity, circleOpacity])
 
 
 
@@ -66,6 +69,6 @@ export default function Canvas({ draw, color, height, width, handleCanvasClick }
 
 
     return (
-        <canvas ref={canvas} height={height} width={width} onClick={handleCanvasClick} />
+        <canvas ref={canvas} height={height} width={width} onClick={handleCanvasClick} style={canvasStyle} />
     )
 }
