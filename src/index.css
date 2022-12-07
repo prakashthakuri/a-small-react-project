@@ -30,13 +30,22 @@ code {
 } */
 
 .star-card{
-  height: 800px;
+  max-height: 800px;
   width: 800px;
   border: 3px solid black;
-  position: relative;
+  /* position: relative; */
+  overflow: auto;
+  height: 800px;
   
 }
-
+.star-subCard{
+  /* max-height: 800px; */
+  /* width: 800px; */
+  /* border: 3px solid black; */
+  /* position: relative; */
+  /* overflow: auto; */
+  /* height: 800px; */
+}
 
 .danger {
   color: red;

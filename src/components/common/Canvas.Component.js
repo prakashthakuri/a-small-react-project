@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
 export default function Canvas(
-            { draw, color, height, width, handleCanvasClick, squareOpacity, triangleOpacity, circleOpacity }  
+            { draw, color, height, width, handleCanvasClick, squareOpacity, triangleOpacity, circleOpacity,type }  
             ) {
 
     const canvas = useRef()
@@ -69,6 +69,10 @@ export default function Canvas(
 
 
     return (
-        <canvas ref={canvas} height={height} width={width} onClick={handleCanvasClick} style={canvasStyle} />
+        <>
+        {type === "square" && <canvas ref={canvas} height={100} width={100} onClick={handleCanvasClick} style={{padding:10,opacity:squareOpacity}} /> }
+        {type === "triangle" && <canvas ref={canvas} height={100} width={100} onClick={handleCanvasClick} style={{padding:10,opacity:triangleOpacity}} /> }
+        {type === "circle" && <canvas ref={canvas} height={100} width={100} onClick={handleCanvasClick} style={{padding:10,opacity:circleOpacity}} /> }
+        </>
     )
 }

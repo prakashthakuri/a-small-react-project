@@ -15,8 +15,8 @@ export default function StarCard({storedData, squareOpacity, triangleOpacity, ci
 
   return (
     
-        <Canvas  draw={starType} color = {starColor} height={height} width={width}  squareOpacity={squareOpacity} triangleOpacity= {triangleOpacity} circleOpacity= {circleOpacity} >
-        <span style={{fontSize: '10pt'}}> Name: {storedData?.name}</span>
+        <Canvas  draw={starType} color = {starColor} height={height} width={width} type={storedData.type}  squareOpacity={squareOpacity} triangleOpacity= {triangleOpacity} circleOpacity= {circleOpacity} >
+       
 
         </Canvas>
       
